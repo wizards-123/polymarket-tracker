@@ -1,4 +1,205 @@
 {
-  "notified_trades": {},
-  "last_check": null
+  "notified_trades": {
+    "6d451b6094f82201": {
+      "timestamp": "2026-01-15T18:42:40.288069-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 18, 2026?"
+    },
+    "3ec3510fb01c7231": {
+      "timestamp": "2026-01-15T18:42:40.760433-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "b8ccf392feb971b3": {
+      "timestamp": "2026-01-15T18:42:41.246451-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "8b638cc21ebae2f1": {
+      "timestamp": "2026-01-15T18:42:41.711485-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "7d973f92c59e3301": {
+      "timestamp": "2026-01-15T18:42:42.186279-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "7d1a4cc9571f7b3b": {
+      "timestamp": "2026-01-15T18:42:42.655856-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "c8a66fb3e032187c": {
+      "timestamp": "2026-01-15T18:42:43.129821-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "38352ed6569b9aee": {
+      "timestamp": "2026-01-15T18:42:43.591880-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "7aa7406e36944aeb": {
+      "timestamp": "2026-01-15T18:42:44.062506-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 23, 2026?"
+    },
+    "32a5263d4053df94": {
+      "timestamp": "2026-01-15T18:42:44.535275-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Lebanon on January 15, 2026?"
+    },
+    "8c8977d69ca63b72": {
+      "timestamp": "2026-01-15T18:42:45.008431-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "668e608e8f2963f0": {
+      "timestamp": "2026-01-15T18:42:45.472761-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "c31235b422083494": {
+      "timestamp": "2026-01-15T18:42:45.965513-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "3d273c8c9b5ac1f0": {
+      "timestamp": "2026-01-15T18:42:46.437068-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "12270ea77c3ee342": {
+      "timestamp": "2026-01-15T18:42:46.922172-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "f8f9aa08380a5ff0": {
+      "timestamp": "2026-01-15T18:42:47.398804-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "51433df7206d485f": {
+      "timestamp": "2026-01-15T18:42:47.882916-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "b31347ee7fdf01b3": {
+      "timestamp": "2026-01-15T18:42:48.360979-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "5743090ac0ab6eac": {
+      "timestamp": "2026-01-15T18:42:48.824684-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "6b9023bdfd6363c2": {
+      "timestamp": "2026-01-15T18:42:49.297095-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by January 16, 2026?"
+    },
+    "2badecbfe0be07a5": {
+      "timestamp": "2026-01-15T18:42:50.019845-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "85e3705ee3bd7951": {
+      "timestamp": "2026-01-15T18:42:50.485844-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "a6402c6143b9ed3c": {
+      "timestamp": "2026-01-15T18:42:50.949955-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "6fe71ea6b83147b9": {
+      "timestamp": "2026-01-15T18:42:51.404009-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "41db1db9aa955c1e": {
+      "timestamp": "2026-01-15T18:42:51.880422-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "b04f2e79dd8ad23f": {
+      "timestamp": "2026-01-15T18:42:52.354050-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "eca95011ad55356f": {
+      "timestamp": "2026-01-15T18:42:52.815999-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "0a8a9600a7f2670c": {
+      "timestamp": "2026-01-15T18:42:53.289028-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by June 30, 2026?"
+    },
+    "f48a7588da3583d6": {
+      "timestamp": "2026-01-15T18:42:53.760043-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "3bf5fcd1227b66f6": {
+      "timestamp": "2026-01-15T18:42:54.234366-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "6b6cd590eaad84cb": {
+      "timestamp": "2026-01-15T18:42:54.707102-03:00",
+      "trader": "Midas14",
+      "title": "X banned in U.K. by March 31?"
+    },
+    "5908003dda635f63": {
+      "timestamp": "2026-01-15T18:42:55.187827-03:00",
+      "trader": "Midas14",
+      "title": "Tim Cook out as Apple CEO by March 31?"
+    },
+    "1bd416987bc0f837": {
+      "timestamp": "2026-01-15T18:42:55.647480-03:00",
+      "trader": "Midas14",
+      "title": "VEO 4 released by January 31, 2026?"
+    },
+    "321686cdc6a7f780": {
+      "timestamp": "2026-01-15T18:42:56.136195-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by January 14, 2026?"
+    },
+    "b4a57d22741889e6": {
+      "timestamp": "2026-01-15T18:42:56.608910-03:00",
+      "trader": "Midas14",
+      "title": "VEO 4 released by March 31, 2026?"
+    },
+    "8fa8e24ea8c3c62d": {
+      "timestamp": "2026-01-15T18:42:57.069993-03:00",
+      "trader": "Midas14",
+      "title": "VEO 4 released by March 31, 2026?"
+    },
+    "abe2f6430b357509": {
+      "timestamp": "2026-01-15T18:42:57.528614-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by January 14, 2026?"
+    },
+    "7a1de92491f9cd07": {
+      "timestamp": "2026-01-15T18:42:57.995738-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by January 14, 2026?"
+    },
+    "18b97f7ab72c6491": {
+      "timestamp": "2026-01-15T18:42:58.457410-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by January 14, 2026?"
+    },
+    "fa042937d5b8d5fa": {
+      "timestamp": "2026-01-15T18:42:58.927344-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by January 14, 2026?"
+    }
+  },
+  "last_check": "2026-01-15T18:42:58.927360-03:00"
 }
