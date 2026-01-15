@@ -1,4 +1,29 @@
 {
-  "notified_trades": [],
+  "notified_trades": {},
   "last_check": null
 }
+```
+4. Clique **Commit changes** → **Commit changes**
+
+---
+
+## Resultado esperado
+
+A mensagem agora terá este formato:
+```
+🔔 NOVA TRADE: @Midas14
+
+📊 Mercado: US strikes Iran by January 14, 2026?
+🔗 Abrir no Polymarket
+
+🟢 BUY No
+💰 Preço: $0.79
+📦 Tamanho @Midas14: $19.75 (2.0%)
+
+━━━━━━━━━━━━━━━━━━━━━
+💡 Sugestão para você:
+→ BUY No @ ~$0.79
+→ Tamanho: $1.00
+━━━━━━━━━━━━━━━━━━━━━
+
+🕐 15/01/2026 17:49:20 (BRT)
