@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Polymarket Copy Trading Bot v3
+Polymarket Copy Trading Bot v4
 Monitora múltiplas wallets e envia notificações no Telegram
-- Horário em BRT (Brasília)
+- Horário da TRADE em BRT (não da execução)
 - Deduplicação robusta de trades
 """
 
@@ -64,6 +64,21 @@ def format_brt_datetime(dt=None):
     if dt is None:
         dt = get_brt_now()
     return dt.strftime("%d/%m/%Y %H:%M:%S")
+
+
+def timestamp_to_brt(timestamp):
+    """
+    Converte timestamp Unix (segundos) para datetime em BRT
+    """
+    try:
+        if timestamp:
+            # Timestamp em segundos -> datetime UTC -> converter para BRT
+            dt_utc = datetime.fromtimestamp(int(timestamp), tz=timezone.utc)
+            dt_brt = dt_utc.astimezone(BRT)
+            return dt_brt
+    except Exception as e:
+        print(f"Erro ao converter timestamp {timestamp}: {e}")
+    return None
 
 
 def load_state():
@@ -164,8 +179,14 @@ def format_trade_message(trade, trader_name, trader_bankroll):
     event_slug = trade.get("eventSlug", "")
     market_url = f"https://polymarket.com/event/{event_slug}/{slug}" if slug else "https://polymarket.com"
     
-    # Data e hora em BRT
-    now_brt = format_brt_datetime()
+    # Horário da TRADE (não da execução do bot)
+    trade_timestamp = trade.get("timestamp")
+    trade_dt_brt = timestamp_to_brt(trade_timestamp)
+    
+    if trade_dt_brt:
+        trade_time_str = format_brt_datetime(trade_dt_brt)
+    else:
+        trade_time_str = "Horário indisponível"
     
     message = f"""
 🔔 *NOVA TRADE: @{trader_name}*
@@ -183,7 +204,7 @@ def format_trade_message(trade, trader_name, trader_bankroll):
 → Tamanho: *${your_size:.2f}*
 ━━━━━━━━━━━━━━━━━━━━━
 
-🕐 {now_brt} (BRT)
+🕐 Trade realizada: {trade_time_str} (BRT)
 """
     return message
 
@@ -213,8 +234,8 @@ def main():
     now_brt = format_brt_datetime()
     
     print(f"{'='*50}")
-    print(f"Polymarket Tracker v3")
-    print(f"Horário: {now_brt} (BRT)")
+    print(f"Polymarket Tracker v4")
+    print(f"Execução: {now_brt} (BRT)")
     print(f"{'='*50}")
     print(f"Seu bankroll: ${YOUR_BANKROLL}")
     print(f"Monitorando {len(wallets)} wallets:")
@@ -257,8 +278,6 @@ def main():
             
             if trade_id not in notified_trades:
                 new_trades.append((trade, trade_id))
-            else:
-                pass  # Trade já notificada, ignorar
         
         print(f"[{name}] {len(new_trades)} trades NOVAS")
         total_new_trades += len(new_trades)
@@ -277,7 +296,6 @@ def main():
     
     # Limpar trades antigas (manter últimas 500)
     if len(notified_trades) > 500:
-        # Ordenar por timestamp e manter as mais recentes
         sorted_trades = sorted(
             notified_trades.items(),
             key=lambda x: x[1].get("timestamp", "") if isinstance(x[1], dict) else "",
