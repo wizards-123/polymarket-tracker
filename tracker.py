@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Polymarket Copy Trading Bot
-Monitora trades do @cashy e envia notificações no Telegram
+Polymarket Copy Trading Bot v2
+Monitora múltiplas wallets e envia notificações no Telegram
 """
 
 import os
@@ -9,14 +9,37 @@ import json
 import requests
 from datetime import datetime
 
-# Configurações (serão substituídas por secrets do GitHub)
+# Configurações do Telegram
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-TARGET_WALLET = os.environ.get("TARGET_WALLET", "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f")
 
-# Seu bankroll e bankroll estimado do @cashy
+# Seu bankroll
 YOUR_BANKROLL = float(os.environ.get("YOUR_BANKROLL", "50"))
-TARGET_BANKROLL = float(os.environ.get("TARGET_BANKROLL", "25800"))
+
+# Wallets a monitorar (formato: wallet:nome:bankroll)
+# Configurado via variável de ambiente WALLETS ou usa padrão
+DEFAULT_WALLETS = [
+    {
+        "address": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
+        "name": "cashy",
+        "bankroll": 25800
+    },
+    {
+        "address": "0x61837ce7e447a35cafd173dec3e0815326003834",
+        "name": "Midas14",
+        "bankroll": 1000
+    }
+]
+
+def get_wallets():
+    """Carrega configuração de wallets"""
+    wallets_json = os.environ.get("WALLETS")
+    if wallets_json:
+        try:
+            return json.loads(wallets_json)
+        except:
+            pass
+    return DEFAULT_WALLETS
 
 # Arquivo para rastrear trades já notificadas
 STATE_FILE = "state.json"
@@ -40,11 +63,11 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 
-def get_recent_trades():
-    """Busca trades recentes do wallet alvo"""
+def get_recent_trades(wallet_address):
+    """Busca trades recentes de uma wallet"""
     url = f"{POLYMARKET_DATA_API}/activity"
     params = {
-        "user": TARGET_WALLET,
+        "user": wallet_address,
         "type": "TRADE",
         "limit": 20
     }
@@ -54,20 +77,22 @@ def get_recent_trades():
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"Erro ao buscar trades: {e}")
+        print(f"Erro ao buscar trades de {wallet_address}: {e}")
         return []
 
 
-def calculate_size(trade_size_usd):
+def calculate_size(trade_size_usd, target_bankroll):
     """
     Calcula o tamanho da sua trade
     Regra: MAX(proporcional, $1)
     """
-    proportional = trade_size_usd * (YOUR_BANKROLL / TARGET_BANKROLL)
+    if target_bankroll <= 0:
+        return 1.0
+    proportional = trade_size_usd * (YOUR_BANKROLL / target_bankroll)
     return max(proportional, 1.0)
 
 
-def format_trade_message(trade):
+def format_trade_message(trade, trader_name, trader_bankroll):
     """Formata a mensagem de notificação"""
     side = trade.get("side", "UNKNOWN")
     side_emoji = "🟢 BUY" if side == "BUY" else "🔴 SELL"
@@ -79,10 +104,10 @@ def format_trade_message(trade):
     size_usd = trade.get("usdcSize", 0)
     
     # Calcular seu tamanho sugerido
-    your_size = calculate_size(size_usd)
+    your_size = calculate_size(size_usd, trader_bankroll)
     
-    # Porcentagem do bankroll do @cashy
-    cashy_pct = (size_usd / TARGET_BANKROLL) * 100 if TARGET_BANKROLL > 0 else 0
+    # Porcentagem do bankroll do trader
+    trader_pct = (size_usd / trader_bankroll) * 100 if trader_bankroll > 0 else 0
     
     # Link para o mercado
     slug = trade.get("slug", "")
@@ -90,14 +115,14 @@ def format_trade_message(trade):
     market_url = f"https://polymarket.com/event/{event_slug}/{slug}" if slug else "https://polymarket.com"
     
     message = f"""
-🔔 *NOVA TRADE DETECTADA*
+🔔 *NOVA TRADE: @{trader_name}*
 
 📊 *Mercado:* {title}
 🔗 [Abrir no Polymarket]({market_url})
 
 {side_emoji} *{outcome}*
 💰 Preço: ${price:.2f}
-📦 Tamanho @cashy: ${size_usd:.2f} ({cashy_pct:.2f}% do bankroll)
+📦 Tamanho @{trader_name}: ${size_usd:.2f} ({trader_pct:.1f}%)
 
 ━━━━━━━━━━━━━━━━━━━━━
 💡 *Sugestão para você:*
@@ -105,7 +130,7 @@ def format_trade_message(trade):
 → Tamanho: *${your_size:.2f}*
 ━━━━━━━━━━━━━━━━━━━━━
 
-⏱️ Detectado: {datetime.now().strftime("%H:%M:%S")}
+⏱️ {datetime.now().strftime("%H:%M:%S")}
 """
     return message
 
@@ -130,16 +155,19 @@ def send_telegram_message(message):
         return False
 
 
-def create_trade_id(trade):
+def create_trade_id(trade, wallet_address):
     """Cria um ID único para a trade"""
-    return f"{trade.get('transactionHash', '')}_{trade.get('timestamp', '')}"
+    return f"{wallet_address}_{trade.get('transactionHash', '')}_{trade.get('timestamp', '')}"
 
 
 def main():
-    print(f"=== Polymarket Tracker ===")
-    print(f"Monitorando: {TARGET_WALLET}")
+    wallets = get_wallets()
+    
+    print(f"=== Polymarket Tracker v2 ===")
     print(f"Seu bankroll: ${YOUR_BANKROLL}")
-    print(f"Bankroll alvo: ${TARGET_BANKROLL}")
+    print(f"Monitorando {len(wallets)} wallets:")
+    for w in wallets:
+        print(f"  - @{w['name']}: {w['address'][:10]}... (${w['bankroll']:,})")
     print()
     
     # Verificar configurações
@@ -151,42 +179,49 @@ def main():
     state = load_state()
     notified_trades = set(state.get("notified_trades", []))
     
-    # Buscar trades recentes
-    print("Buscando trades recentes...")
-    trades = get_recent_trades()
+    total_new_trades = 0
     
-    if not trades:
-        print("Nenhuma trade encontrada ou erro na API")
-        state["last_check"] = datetime.now().isoformat()
-        save_state(state)
-        return
-    
-    print(f"Encontradas {len(trades)} trades")
-    
-    # Processar trades
-    new_trades = []
-    for trade in trades:
-        trade_id = create_trade_id(trade)
+    # Processar cada wallet
+    for wallet in wallets:
+        address = wallet["address"]
+        name = wallet["name"]
+        bankroll = wallet["bankroll"]
         
-        if trade_id not in notified_trades:
-            new_trades.append(trade)
-            notified_trades.add(trade_id)
-    
-    print(f"Novas trades: {len(new_trades)}")
-    
-    # Enviar notificações para novas trades
-    for trade in new_trades:
-        print(f"\nNotificando trade: {trade.get('title', 'Unknown')}")
-        message = format_trade_message(trade)
-        send_telegram_message(message)
+        print(f"\nBuscando trades de @{name}...")
+        trades = get_recent_trades(address)
+        
+        if not trades:
+            print(f"  Nenhuma trade encontrada")
+            continue
+        
+        print(f"  Encontradas {len(trades)} trades")
+        
+        # Processar trades
+        new_trades = []
+        for trade in trades:
+            trade_id = create_trade_id(trade, address)
+            
+            if trade_id not in notified_trades:
+                new_trades.append(trade)
+                notified_trades.add(trade_id)
+        
+        print(f"  Novas trades: {len(new_trades)}")
+        total_new_trades += len(new_trades)
+        
+        # Enviar notificações
+        for trade in new_trades:
+            print(f"  Notificando: {trade.get('title', 'Unknown')}")
+            message = format_trade_message(trade, name, bankroll)
+            send_telegram_message(message)
     
     # Salvar estado atualizado
-    # Manter apenas os últimos 100 IDs para não crescer indefinidamente
-    state["notified_trades"] = list(notified_trades)[-100:]
+    state["notified_trades"] = list(notified_trades)[-200:]  # Manter últimos 200
     state["last_check"] = datetime.now().isoformat()
     save_state(state)
     
-    print(f"\nVerificação concluída: {datetime.now().isoformat()}")
+    print(f"\n=== Concluído ===")
+    print(f"Total de novas trades notificadas: {total_new_trades}")
+    print(f"Horário: {datetime.now().isoformat()}")
 
 
 if __name__ == "__main__":
