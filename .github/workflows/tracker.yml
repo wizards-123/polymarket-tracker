@@ -1,0 +1,39 @@
+name: Polymarket Tracker
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Run tracker
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TARGET_WALLET: ${{ secrets.TARGET_WALLET }}
+          YOUR_BANKROLL: ${{ secrets.YOUR_BANKROLL }}
+          TARGET_BANKROLL: ${{ secrets.TARGET_BANKROLL }}
+        run: python tracker.py
+      
+      - name: Commit state changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add state.json || true
+          git diff --staged --quiet || git commit -m "Update tracker state"
+          git push || true
