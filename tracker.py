@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-Polymarket Copy Trading Bot v4
+Polymarket Copy Trading Bot v5
 Monitora múltiplas wallets e envia notificações no Telegram
-- Horário da TRADE em BRT (não da execução)
-- Deduplicação robusta de trades
 """
 
 import os
@@ -67,12 +65,9 @@ def format_brt_datetime(dt=None):
 
 
 def timestamp_to_brt(timestamp):
-    """
-    Converte timestamp Unix (segundos) para datetime em BRT
-    """
+    """Converte timestamp Unix para datetime em BRT"""
     try:
         if timestamp:
-            # Timestamp em segundos -> datetime UTC -> converter para BRT
             dt_utc = datetime.fromtimestamp(int(timestamp), tz=timezone.utc)
             dt_brt = dt_utc.astimezone(BRT)
             return dt_brt
@@ -87,9 +82,7 @@ def load_state():
         if os.path.exists(STATE_FILE):
             with open(STATE_FILE, "r") as f:
                 data = json.load(f)
-                # Garantir que notified_trades é um dicionário
                 if isinstance(data.get("notified_trades"), list):
-                    # Migrar de lista para dicionário
                     data["notified_trades"] = {tid: True for tid in data["notified_trades"]}
                 return data
     except Exception as e:
@@ -126,10 +119,7 @@ def get_recent_trades(wallet_address):
 
 
 def calculate_size(trade_size_usd, target_bankroll):
-    """
-    Calcula o tamanho da sua trade
-    Regra: MAX(proporcional, $1)
-    """
+    """Calcula o tamanho da sua trade: MAX(proporcional, $1)"""
     if target_bankroll <= 0:
         return 1.0
     proportional = trade_size_usd * (YOUR_BANKROLL / target_bankroll)
@@ -137,11 +127,7 @@ def calculate_size(trade_size_usd, target_bankroll):
 
 
 def create_trade_id(trade, wallet_address):
-    """
-    Cria um ID único e robusto para a trade
-    Usa hash de múltiplos campos para garantir unicidade
-    """
-    # Combinar múltiplos campos para criar ID único
+    """Cria um ID único para a trade"""
     unique_string = "|".join([
         wallet_address.lower(),
         str(trade.get("transactionHash", "")),
@@ -151,61 +137,32 @@ def create_trade_id(trade, wallet_address):
         str(trade.get("size", "")),
         str(trade.get("price", ""))
     ])
-    
-    # Criar hash MD5 para ID compacto
     trade_hash = hashlib.md5(unique_string.encode()).hexdigest()[:16]
-    
     return trade_hash
 
 
 def format_trade_message(trade, trader_name, trader_bankroll):
     """Formata a mensagem de notificação"""
     side = trade.get("side", "UNKNOWN")
-    side_emoji = "🟢 BUY" if side == "BUY" else "🔴 SELL"
-    
     title = trade.get("title", "Unknown Market")
     outcome = trade.get("outcome", "?")
     price = trade.get("price", 0)
     size_usd = trade.get("usdcSize", 0)
     
-    # Calcular seu tamanho sugerido
-    your_size = calculate_size(size_usd, trader_bankroll)
-    
     # Porcentagem do bankroll do trader
     trader_pct = (size_usd / trader_bankroll) * 100 if trader_bankroll > 0 else 0
     
-    # Link para o mercado
-    slug = trade.get("slug", "")
-    event_slug = trade.get("eventSlug", "")
-    market_url = f"https://polymarket.com/event/{event_slug}/{slug}" if slug else "https://polymarket.com"
-    
-    # Horário da TRADE (não da execução do bot)
+    # Horário da trade em BRT
     trade_timestamp = trade.get("timestamp")
     trade_dt_brt = timestamp_to_brt(trade_timestamp)
+    trade_time_str = format_brt_datetime(trade_dt_brt) if trade_dt_brt else "Horário indisponível"
     
-    if trade_dt_brt:
-        trade_time_str = format_brt_datetime(trade_dt_brt)
-    else:
-        trade_time_str = "Horário indisponível"
+    message = f"""NOVA TRADE: @{trader_name}
+Mercado: {title}
+{side} {outcome} @${price:.2f}
+Tamanho @{trader_name}: ${size_usd:.2f} ({trader_pct:.1f}%)
+Trade realizada: {trade_time_str}"""
     
-    message = f"""
-🔔 *NOVA TRADE: @{trader_name}*
-
-📊 *Mercado:* {title}
-🔗 [Abrir no Polymarket]({market_url})
-
-{side_emoji} *{outcome}*
-💰 Preço: ${price:.2f}
-📦 Tamanho @{trader_name}: ${size_usd:.2f} ({trader_pct:.1f}%)
-
-━━━━━━━━━━━━━━━━━━━━━
-💡 *Sugestão para você:*
-→ {side} *{outcome}* @ ~${price:.2f}
-→ Tamanho: *${your_size:.2f}*
-━━━━━━━━━━━━━━━━━━━━━
-
-🕐 Trade realizada: {trade_time_str} (BRT)
-"""
     return message
 
 
@@ -215,8 +172,7 @@ def send_telegram_message(message):
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": message,
-        "parse_mode": "Markdown",
-        "disable_web_page_preview": False
+        "disable_web_page_preview": True
     }
     
     try:
@@ -234,7 +190,7 @@ def main():
     now_brt = format_brt_datetime()
     
     print(f"{'='*50}")
-    print(f"Polymarket Tracker v4")
+    print(f"Polymarket Tracker v5")
     print(f"Execução: {now_brt} (BRT)")
     print(f"{'='*50}")
     print(f"Seu bankroll: ${YOUR_BANKROLL}")
@@ -243,12 +199,10 @@ def main():
         print(f"  • @{w['name']}: ${w['bankroll']:,}")
     print()
     
-    # Verificar configurações
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("ERRO: TELEGRAM_TOKEN e TELEGRAM_CHAT_ID são obrigatórios!")
         return
     
-    # Carregar estado
     state = load_state()
     notified_trades = state.get("notified_trades", {})
     print(f"Trades já notificadas no histórico: {len(notified_trades)}")
@@ -256,7 +210,6 @@ def main():
     
     total_new_trades = 0
     
-    # Processar cada wallet
     for wallet in wallets:
         address = wallet["address"]
         name = wallet["name"]
@@ -271,30 +224,25 @@ def main():
         
         print(f"[{name}] {len(trades)} trades na API")
         
-        # Processar trades
         new_trades = []
         for trade in trades:
             trade_id = create_trade_id(trade, address)
-            
             if trade_id not in notified_trades:
                 new_trades.append((trade, trade_id))
         
         print(f"[{name}] {len(new_trades)} trades NOVAS")
         total_new_trades += len(new_trades)
         
-        # Enviar notificações apenas para trades novas
         for trade, trade_id in new_trades:
             print(f"[{name}] Notificando: {trade.get('title', 'Unknown')[:40]}...")
             message = format_trade_message(trade, name, bankroll)
             if send_telegram_message(message):
-                # Marcar como notificada SOMENTE se enviou com sucesso
                 notified_trades[trade_id] = {
                     "timestamp": get_brt_now().isoformat(),
                     "trader": name,
                     "title": trade.get("title", "")[:50]
                 }
     
-    # Limpar trades antigas (manter últimas 500)
     if len(notified_trades) > 500:
         sorted_trades = sorted(
             notified_trades.items(),
@@ -304,7 +252,6 @@ def main():
         notified_trades = dict(sorted_trades[:500])
         print(f"\nLimpeza: mantendo últimas 500 trades no histórico")
     
-    # Salvar estado atualizado
     state["notified_trades"] = notified_trades
     state["last_check"] = get_brt_now().isoformat()
     save_state(state)
