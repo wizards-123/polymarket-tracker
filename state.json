@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "61f25d1aac26b4d3": {
+      "timestamp": "2026-02-01T18:58:21.244702-03:00",
+      "trader": "cashy",
+      "title": "Hezbollah strike on Israel by March 31?"
+    },
     "27f246947fb1f13b": {
       "timestamp": "2026-02-01T17:54:05.766710-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-15T18:42:52.354050-03:00",
       "trader": "Midas14",
       "title": "US strikes Iran by March 31, 2026?"
-    },
-    "41db1db9aa955c1e": {
-      "timestamp": "2026-01-15T18:42:51.880422-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
     }
   },
-  "last_check": "2026-02-01T18:43:41.686616-03:00"
+  "last_check": "2026-02-01T18:58:21.491283-03:00"
 }
