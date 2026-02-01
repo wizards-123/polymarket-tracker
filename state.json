@@ -1,5 +1,15 @@
 {
   "notified_trades": {
+    "27f246947fb1f13b": {
+      "timestamp": "2026-02-01T17:54:05.766710-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
+    "88126d38103e30ee": {
+      "timestamp": "2026-02-01T17:54:05.348251-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
     "941a6000625fefba": {
       "timestamp": "2026-02-01T16:57:27.195019-03:00",
       "trader": "cashy",
@@ -2489,17 +2499,7 @@
       "timestamp": "2026-01-15T18:42:51.880422-03:00",
       "trader": "Midas14",
       "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "6fe71ea6b83147b9": {
-      "timestamp": "2026-01-15T18:42:51.404009-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "a6402c6143b9ed3c": {
-      "timestamp": "2026-01-15T18:42:50.949955-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
     }
   },
-  "last_check": "2026-02-01T16:57:27.481432-03:00"
+  "last_check": "2026-02-01T17:54:05.994937-03:00"
 }
