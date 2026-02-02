@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "b9f5503ba7f75a83": {
+      "timestamp": "2026-02-02T08:56:54.017542-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
     "cfcd64b9ab9a2b1d": {
       "timestamp": "2026-02-02T07:29:32.092594-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-16T07:52:32.855341-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "eac323ee04573ad9": {
-      "timestamp": "2026-01-16T07:52:32.218888-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-02T07:29:32.434022-03:00"
+  "last_check": "2026-02-02T08:56:54.216824-03:00"
 }
