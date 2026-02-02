@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "5de329f375e975e0": {
+      "timestamp": "2026-02-02T15:04:01.567890-03:00",
+      "trader": "cashy",
+      "title": " Iran agrees to end enrichment of uranium by March"
+    },
     "22cdf4b7a38d2c75": {
       "timestamp": "2026-02-02T13:01:38.197266-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-16T18:59:01.766699-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "2971e66345b84d3f": {
-      "timestamp": "2026-01-16T18:51:38.544251-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-02T13:01:38.405116-03:00"
+  "last_check": "2026-02-02T15:04:01.986819-03:00"
 }
