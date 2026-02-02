@@ -1,5 +1,20 @@
 {
   "notified_trades": {
+    "e1693011ca0e1557": {
+      "timestamp": "2026-02-02T11:25:44.685971-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "31da6e22da9181c9": {
+      "timestamp": "2026-02-02T11:25:44.111121-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "d060577389bb4261": {
+      "timestamp": "2026-02-02T11:25:43.537749-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
     "b9f5503ba7f75a83": {
       "timestamp": "2026-02-02T08:56:54.017542-03:00",
       "trader": "cashy",
@@ -2484,22 +2499,7 @@
       "timestamp": "2026-01-16T15:59:38.651336-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "df5cddfad00ca996": {
-      "timestamp": "2026-01-16T15:59:38.118038-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "49831213baffd0b6": {
-      "timestamp": "2026-01-16T10:51:44.785931-03:00",
-      "trader": "Midas14",
-      "title": "Will Apple reach $324 in January?"
-    },
-    "44aa46de1e5de1d0": {
-      "timestamp": "2026-01-16T07:52:32.855341-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-02T08:56:54.216824-03:00"
+  "last_check": "2026-02-02T11:25:44.964335-03:00"
 }
