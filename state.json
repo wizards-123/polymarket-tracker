@@ -1,5 +1,65 @@
 {
   "notified_trades": {
+    "cfcd64b9ab9a2b1d": {
+      "timestamp": "2026-02-02T07:29:32.092594-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "cfe0f5ee4402742c": {
+      "timestamp": "2026-02-02T07:29:31.663553-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "8fd0627bccf00986": {
+      "timestamp": "2026-02-02T07:29:31.246587-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "b205da59883457a6": {
+      "timestamp": "2026-02-02T07:29:30.828224-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "12880d449d834caf": {
+      "timestamp": "2026-02-02T07:29:30.413478-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "7d62dcef1757bc38": {
+      "timestamp": "2026-02-02T07:29:29.992707-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "93adebac2c8afafc": {
+      "timestamp": "2026-02-02T07:29:29.566896-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "7b5d8cf7a4d6bdbb": {
+      "timestamp": "2026-02-02T07:29:29.150413-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "8cd2ae74100a5322": {
+      "timestamp": "2026-02-02T07:29:28.726535-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "b00aa138ae0e80eb": {
+      "timestamp": "2026-02-02T07:29:28.304496-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "54c207cbd1d09222": {
+      "timestamp": "2026-02-02T07:29:27.861462-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
+    "9b99338856aa3f29": {
+      "timestamp": "2026-02-02T07:29:27.443723-03:00",
+      "trader": "cashy",
+      "title": "US-Iran nuclear deal before 2027?"
+    },
     "479fa06802037b30": {
       "timestamp": "2026-02-01T19:55:33.074538-03:00",
       "trader": "cashy",
@@ -2439,67 +2499,7 @@
       "timestamp": "2026-01-16T07:52:32.218888-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "fa042937d5b8d5fa": {
-      "timestamp": "2026-01-15T18:42:58.927344-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by January 14, 2026?"
-    },
-    "18b97f7ab72c6491": {
-      "timestamp": "2026-01-15T18:42:58.457410-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by January 14, 2026?"
-    },
-    "7a1de92491f9cd07": {
-      "timestamp": "2026-01-15T18:42:57.995738-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by January 14, 2026?"
-    },
-    "abe2f6430b357509": {
-      "timestamp": "2026-01-15T18:42:57.528614-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by January 14, 2026?"
-    },
-    "8fa8e24ea8c3c62d": {
-      "timestamp": "2026-01-15T18:42:57.069993-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by March 31, 2026?"
-    },
-    "b4a57d22741889e6": {
-      "timestamp": "2026-01-15T18:42:56.608910-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by March 31, 2026?"
-    },
-    "321686cdc6a7f780": {
-      "timestamp": "2026-01-15T18:42:56.136195-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by January 14, 2026?"
-    },
-    "1bd416987bc0f837": {
-      "timestamp": "2026-01-15T18:42:55.647480-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by January 31, 2026?"
-    },
-    "5908003dda635f63": {
-      "timestamp": "2026-01-15T18:42:55.187827-03:00",
-      "trader": "Midas14",
-      "title": "Tim Cook out as Apple CEO by March 31?"
-    },
-    "6b6cd590eaad84cb": {
-      "timestamp": "2026-01-15T18:42:54.707102-03:00",
-      "trader": "Midas14",
-      "title": "X banned in U.K. by March 31?"
-    },
-    "3bf5fcd1227b66f6": {
-      "timestamp": "2026-01-15T18:42:54.234366-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "f48a7588da3583d6": {
-      "timestamp": "2026-01-15T18:42:53.760043-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
     }
   },
-  "last_check": "2026-02-02T04:56:58.921082-03:00"
+  "last_check": "2026-02-02T07:29:32.434022-03:00"
 }
