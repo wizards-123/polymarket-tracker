@@ -1,5 +1,65 @@
 {
   "notified_trades": {
+    "22cdf4b7a38d2c75": {
+      "timestamp": "2026-02-02T13:01:38.197266-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "8460cda4d314be97": {
+      "timestamp": "2026-02-02T13:01:37.756759-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "9e10528aba42841e": {
+      "timestamp": "2026-02-02T13:01:37.290811-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "fd0fbbcea9fdd393": {
+      "timestamp": "2026-02-02T13:01:36.834094-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "961116da0df45729": {
+      "timestamp": "2026-02-02T13:01:36.395253-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "27025c008642f303": {
+      "timestamp": "2026-02-02T13:01:35.957386-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 2, 2026?"
+    },
+    "c1edc4c3d4716bfa": {
+      "timestamp": "2026-02-02T13:01:35.513795-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 6, 2026?"
+    },
+    "221549293c85f3de": {
+      "timestamp": "2026-02-02T13:01:35.081110-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 6, 2026?"
+    },
+    "e595860f3be7f83d": {
+      "timestamp": "2026-02-02T13:01:34.632095-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 6, 2026?"
+    },
+    "f8896b128ed39293": {
+      "timestamp": "2026-02-02T13:01:34.190986-03:00",
+      "trader": "cashy",
+      "title": " Iran agrees to end enrichment of uranium by March"
+    },
+    "3662f1ac58969ff3": {
+      "timestamp": "2026-02-02T13:01:33.742004-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
+    "4aea2df5318a5193": {
+      "timestamp": "2026-02-02T13:01:33.281656-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
     "e1693011ca0e1557": {
       "timestamp": "2026-02-02T11:25:44.685971-03:00",
       "trader": "cashy",
@@ -2439,67 +2499,7 @@
       "timestamp": "2026-01-16T18:51:38.544251-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "b65086302b39bb6f": {
-      "timestamp": "2026-01-16T18:51:38.075773-03:00",
-      "trader": "cashy",
-      "title": "Israel x Hamas Ceasefire Phase II by January 31?"
-    },
-    "78953c92f886b997": {
-      "timestamp": "2026-01-16T18:38:41.168873-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "a9f7968349bbffe4": {
-      "timestamp": "2026-01-16T18:38:40.529146-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "0d8702e3b08d7585": {
-      "timestamp": "2026-01-16T16:58:28.118085-03:00",
-      "trader": "Midas14",
-      "title": "Will the US next strike Iran on January 19, 2026 ("
-    },
-    "d8cb35a5bbf01856": {
-      "timestamp": "2026-01-16T16:51:19.080547-03:00",
-      "trader": "Midas14",
-      "title": "Will the US next strike Iran on January 18, 2026 ("
-    },
-    "6a38f2c3b67723c1": {
-      "timestamp": "2026-01-16T16:43:33.543188-03:00",
-      "trader": "Midas14",
-      "title": "Will the US next strike Iran on January 16, 2026 ("
-    },
-    "8c76eba9182ac248": {
-      "timestamp": "2026-01-16T16:43:32.968223-03:00",
-      "trader": "Midas14",
-      "title": "Will the US next strike Iran on January 17, 2026 ("
-    },
-    "54ef59154b3c7839": {
-      "timestamp": "2026-01-16T16:31:06.443112-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "5008cfb3ef5964e2": {
-      "timestamp": "2026-01-16T16:31:05.793100-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "342fe756233b84cf": {
-      "timestamp": "2026-01-16T15:59:39.837234-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "61cc80ce0ef61e1f": {
-      "timestamp": "2026-01-16T15:59:39.344419-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "05472779129d9b81": {
-      "timestamp": "2026-01-16T15:59:38.651336-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-02T11:25:44.964335-03:00"
+  "last_check": "2026-02-02T13:01:38.405116-03:00"
 }
