@@ -1,5 +1,20 @@
 {
   "notified_trades": {
+    "8ef639415266aa03": {
+      "timestamp": "2026-02-03T18:21:52.355069-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
+    "ad0aac0391d473f1": {
+      "timestamp": "2026-02-03T18:21:51.780939-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
+    "d66c18442c0e2ccc": {
+      "timestamp": "2026-02-03T18:21:51.199958-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
     "715f1eb16095180b": {
       "timestamp": "2026-02-03T16:51:16.212690-03:00",
       "trader": "cashy",
@@ -2484,22 +2499,7 @@
       "timestamp": "2026-01-18T10:38:03.376827-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "c0d9ac5875e3dfee": {
-      "timestamp": "2026-01-18T10:38:02.768318-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "5c05624e2750b2e2": {
-      "timestamp": "2026-01-18T08:28:45.454688-03:00",
-      "trader": "Midas14",
-      "title": "Will Google say \"Gemini 3\" during earnings call?"
-    },
-    "38db5fae045d7ef0": {
-      "timestamp": "2026-01-17T19:52:07.125062-03:00",
-      "trader": "Midas14",
-      "title": "Will the S&P 500 Index gain at least 3% on any day"
     }
   },
-  "last_check": "2026-02-03T16:51:16.783626-03:00"
+  "last_check": "2026-02-03T18:21:52.922448-03:00"
 }
