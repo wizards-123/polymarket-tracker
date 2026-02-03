@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "715f1eb16095180b": {
+      "timestamp": "2026-02-03T16:51:16.212690-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
     "2097f19c3d7f50fd": {
       "timestamp": "2026-02-03T14:38:48.798676-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-17T19:52:07.125062-03:00",
       "trader": "Midas14",
       "title": "Will the S&P 500 Index gain at least 3% on any day"
-    },
-    "5dd1ae765dc02729": {
-      "timestamp": "2026-01-17T19:41:19.629978-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by January 31, 2026?"
     }
   },
-  "last_check": "2026-02-03T14:38:49.023658-03:00"
+  "last_check": "2026-02-03T16:51:16.783626-03:00"
 }
