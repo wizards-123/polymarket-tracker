@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "41b8e94ed9b76680": {
+      "timestamp": "2026-02-03T19:56:53.585842-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 13, 2026?"
+    },
     "8ef639415266aa03": {
       "timestamp": "2026-02-03T18:21:52.355069-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-18T10:52:53.199849-03:00",
       "trader": "Midas14",
       "title": "Grok 5 released by March 31, 2026?"
-    },
-    "9258bf9af7ec255c": {
-      "timestamp": "2026-01-18T10:38:03.376827-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-03T18:21:52.922448-03:00"
+  "last_check": "2026-02-03T19:56:53.801287-03:00"
 }
