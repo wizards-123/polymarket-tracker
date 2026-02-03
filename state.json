@@ -1,5 +1,20 @@
 {
   "notified_trades": {
+    "2097f19c3d7f50fd": {
+      "timestamp": "2026-02-03T14:38:48.798676-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "c691cd4dad5ccf78": {
+      "timestamp": "2026-02-03T14:38:48.308461-03:00",
+      "trader": "cashy",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "6600c3d06f33f4dd": {
+      "timestamp": "2026-02-03T14:38:47.829172-03:00",
+      "trader": "cashy",
+      "title": "U.S. x Iran Military Engagement by June 30, 2026?"
+    },
     "477da3399a1859de": {
       "timestamp": "2026-02-03T02:07:15.386512-03:00",
       "trader": "Midas14",
@@ -2484,22 +2499,7 @@
       "timestamp": "2026-01-17T19:41:19.629978-03:00",
       "trader": "Midas14",
       "title": "VEO 4 released by January 31, 2026?"
-    },
-    "38064318da96ebd3": {
-      "timestamp": "2026-01-17T17:39:34.236505-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "e8db5666c597612b": {
-      "timestamp": "2026-01-17T17:39:33.579758-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
-    },
-    "c6e541a39f4efd3d": {
-      "timestamp": "2026-01-17T17:39:33.155933-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 16, 2026?"
     }
   },
-  "last_check": "2026-02-03T11:34:28.563679-03:00"
+  "last_check": "2026-02-03T14:38:49.023658-03:00"
 }
