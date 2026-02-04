@@ -1,5 +1,20 @@
 {
   "notified_trades": {
+    "9cd9b1497376a17e": {
+      "timestamp": "2026-02-04T18:56:04.941768-03:00",
+      "trader": "Midas14",
+      "title": "Will the S&P 500 Index gain at least 3% on any day"
+    },
+    "15fb501d2aadec53": {
+      "timestamp": "2026-02-04T18:56:04.277247-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "0503a60111e26121": {
+      "timestamp": "2026-02-04T18:56:03.858342-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
     "66ea65a8596c1f1e": {
       "timestamp": "2026-02-04T18:02:29.852259-03:00",
       "trader": "cashy",
@@ -2484,22 +2499,7 @@
       "timestamp": "2026-01-20T14:04:56.804043-03:00",
       "trader": "Midas14",
       "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "145fc446466c2680": {
-      "timestamp": "2026-01-20T14:04:56.362157-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "a80bbc2aac3b9598": {
-      "timestamp": "2026-01-20T14:04:55.928574-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "fdec46c2b4d1fd29": {
-      "timestamp": "2026-01-20T14:04:55.495457-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
     }
   },
-  "last_check": "2026-02-04T18:02:30.075463-03:00"
+  "last_check": "2026-02-04T18:56:04.942254-03:00"
 }
