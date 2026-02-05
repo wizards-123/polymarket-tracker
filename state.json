@@ -1,5 +1,55 @@
 {
   "notified_trades": {
+    "8c119ee1b8f8ef9c": {
+      "timestamp": "2026-02-05T02:08:28.670501-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "785e52c81cd273a8": {
+      "timestamp": "2026-02-05T02:08:28.265384-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "adf3d6e3aa20df7a": {
+      "timestamp": "2026-02-05T02:08:27.837485-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "6920dff1d116e60d": {
+      "timestamp": "2026-02-05T02:08:27.422031-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "7c05c65e7c2b10c8": {
+      "timestamp": "2026-02-05T02:08:27.012403-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "bb139deedf33af5f": {
+      "timestamp": "2026-02-05T02:08:26.602104-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "d8f5fa2480f6cb3a": {
+      "timestamp": "2026-02-05T02:08:26.195151-03:00",
+      "trader": "Midas14",
+      "title": "Gemini 3.5 released by June 30?"
+    },
+    "1b66972c037dda33": {
+      "timestamp": "2026-02-05T02:08:25.773940-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "64b4d80180512305": {
+      "timestamp": "2026-02-05T02:08:25.353655-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "dda621f70a9af8ba": {
+      "timestamp": "2026-02-05T02:08:24.928599-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
     "9cd9b1497376a17e": {
       "timestamp": "2026-02-04T18:56:04.941768-03:00",
       "trader": "Midas14",
@@ -2449,57 +2499,7 @@
       "timestamp": "2026-01-20T19:42:12.724011-03:00",
       "trader": "Midas14",
       "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "94c6411084ea9bc4": {
-      "timestamp": "2026-01-20T19:42:12.259678-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "2e05d7f9996557e2": {
-      "timestamp": "2026-01-20T19:42:11.786895-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "cfc1f527fdacfd94": {
-      "timestamp": "2026-01-20T18:02:08.699492-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 21, 2026?"
-    },
-    "466d2c9a83848153": {
-      "timestamp": "2026-01-20T17:35:59.085755-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by March 31, 2026?"
-    },
-    "40bf8d23f4e33ae3": {
-      "timestamp": "2026-01-20T14:57:50.227390-03:00",
-      "trader": "Midas14",
-      "title": "Will Google say \"Gemini 3\" during earnings call?"
-    },
-    "ed3e83bb214435ee": {
-      "timestamp": "2026-01-20T14:57:49.346491-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 21, 2026?"
-    },
-    "264877acd1787aeb": {
-      "timestamp": "2026-01-20T14:57:48.711715-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 21, 2026?"
-    },
-    "924406d912dabacd": {
-      "timestamp": "2026-01-20T14:04:57.670754-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "376004de5042d1bc": {
-      "timestamp": "2026-01-20T14:04:57.233086-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "567e4abc634ce4a8": {
-      "timestamp": "2026-01-20T14:04:56.804043-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
     }
   },
-  "last_check": "2026-02-04T20:54:08.332049-03:00"
+  "last_check": "2026-02-05T02:08:28.670887-03:00"
 }
