@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "3a7e36bbdfe2453a": {
+      "timestamp": "2026-02-06T02:07:18.600816-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
     "8c119ee1b8f8ef9c": {
       "timestamp": "2026-02-05T02:08:28.670501-03:00",
       "trader": "Midas14",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-20T19:42:13.188549-03:00",
       "trader": "Midas14",
       "title": "Will Netflix say \"Warner Bros\" during earnings cal"
-    },
-    "fd0aa480d9d31588": {
-      "timestamp": "2026-01-20T19:42:12.724011-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix say \"Warner Bros\" during earnings cal"
     }
   },
-  "last_check": "2026-02-05T21:00:34.305187-03:00"
+  "last_check": "2026-02-06T02:07:18.821294-03:00"
 }
