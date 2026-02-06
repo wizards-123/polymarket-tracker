@@ -1,5 +1,30 @@
 {
   "notified_trades": {
+    "bfc576062c5268ba": {
+      "timestamp": "2026-02-06T08:49:37.569127-03:00",
+      "trader": "cashy",
+      "title": "Will the next official US-Iran meeting be in Oman?"
+    },
+    "11bdb4fa973a6d15": {
+      "timestamp": "2026-02-06T08:49:37.119640-03:00",
+      "trader": "cashy",
+      "title": "Will the next official US-Iran meeting be in Oman?"
+    },
+    "324a7fd83f33b7f4": {
+      "timestamp": "2026-02-06T08:49:36.682489-03:00",
+      "trader": "cashy",
+      "title": "Will no qualifying US-Iran meeting occur by Februa"
+    },
+    "5051443ba93eae19": {
+      "timestamp": "2026-02-06T08:49:36.213119-03:00",
+      "trader": "cashy",
+      "title": "Will the next official US-Iran meeting be in Oman?"
+    },
+    "6d92fa524ac59288": {
+      "timestamp": "2026-02-06T08:49:35.783633-03:00",
+      "trader": "cashy",
+      "title": "Will the next official US-Iran meeting be in Oman?"
+    },
     "0c596d6827fb414c": {
       "timestamp": "2026-02-06T07:05:17.063235-03:00",
       "trader": "cashy",
@@ -2474,32 +2499,7 @@
       "timestamp": "2026-01-21T10:58:43.752071-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "afa289d2b94ed87c": {
-      "timestamp": "2026-01-21T10:58:43.271478-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "6e696edc8f1bc2db": {
-      "timestamp": "2026-01-21T10:58:42.776408-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "bbd163adcf0e5474": {
-      "timestamp": "2026-01-21T10:58:42.275800-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "7187a4a1d07972b1": {
-      "timestamp": "2026-01-21T10:58:41.810024-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "668d85045f0f49be": {
-      "timestamp": "2026-01-21T03:00:51.818821-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 1 country in 2026?"
     }
   },
-  "last_check": "2026-02-06T07:05:17.286901-03:00"
+  "last_check": "2026-02-06T08:49:37.778211-03:00"
 }
