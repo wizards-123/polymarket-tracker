@@ -1,5 +1,40 @@
 {
   "notified_trades": {
+    "e2906a6354ab6610": {
+      "timestamp": "2026-02-06T18:02:15.547892-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "7b87e00be8748fa0": {
+      "timestamp": "2026-02-06T18:02:14.923067-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "b0d8556e843bb04e": {
+      "timestamp": "2026-02-06T18:02:14.291437-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "db6eafebc6232220": {
+      "timestamp": "2026-02-06T18:02:13.690728-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "68f75f161668bb54": {
+      "timestamp": "2026-02-06T18:02:13.075848-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "128dada15b555dce": {
+      "timestamp": "2026-02-06T18:02:12.460873-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "8e18568baae2c93b": {
+      "timestamp": "2026-02-06T18:02:11.836481-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
     "c8d65ced4f343cf7": {
       "timestamp": "2026-02-06T16:51:27.662615-03:00",
       "trader": "cashy",
@@ -2464,42 +2499,7 @@
       "timestamp": "2026-01-22T08:43:16.089603-03:00",
       "trader": "cashy",
       "title": "Will Belgium join the Board of Peace?"
-    },
-    "c8f8ef09a00f3a98": {
-      "timestamp": "2026-01-22T07:57:51.312305-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 22, 2026?"
-    },
-    "293529cb47fa8f49": {
-      "timestamp": "2026-01-22T01:16:06.228366-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "f0a3c0e4a5070305": {
-      "timestamp": "2026-01-22T01:16:05.763867-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "4c1ce072aa7b0e75": {
-      "timestamp": "2026-01-22T01:16:05.300872-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "e4fb92639b504471": {
-      "timestamp": "2026-01-22T01:16:04.835697-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "6a924f73f7e8dd79": {
-      "timestamp": "2026-01-22T01:16:04.363813-03:00",
-      "trader": "Midas14",
-      "title": "VEO 4 released by March 31, 2026?"
-    },
-    "7830ebfd33db0b8c": {
-      "timestamp": "2026-01-22T01:16:03.892430-03:00",
-      "trader": "Midas14",
-      "title": "Kalshi stops offering sports event contracts in Ma"
     }
   },
-  "last_check": "2026-02-06T16:51:27.927384-03:00"
+  "last_check": "2026-02-06T18:02:15.849359-03:00"
 }
