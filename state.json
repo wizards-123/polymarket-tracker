@@ -1,5 +1,50 @@
 {
   "notified_trades": {
+    "c8d65ced4f343cf7": {
+      "timestamp": "2026-02-06T16:51:27.662615-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 28, 2026?"
+    },
+    "42d5fe64c38a9514": {
+      "timestamp": "2026-02-06T16:51:27.239556-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "c3c1bb367d103119": {
+      "timestamp": "2026-02-06T16:51:26.815952-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "20329669e40bb045": {
+      "timestamp": "2026-02-06T16:51:26.401966-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "5638aad73404b61e": {
+      "timestamp": "2026-02-06T16:51:25.987099-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "a6474626c4f86caf": {
+      "timestamp": "2026-02-06T16:51:25.565207-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "6ee366e98c9c5f0e": {
+      "timestamp": "2026-02-06T16:51:25.154548-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "eaae8c931fc509f9": {
+      "timestamp": "2026-02-06T16:51:24.742295-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
+    "8511565d04246b82": {
+      "timestamp": "2026-02-06T16:51:24.314016-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 6, 2026?"
+    },
     "38151c4a4f65f0c5": {
       "timestamp": "2026-02-06T13:08:16.963077-03:00",
       "trader": "cashy",
@@ -2454,52 +2499,7 @@
       "timestamp": "2026-01-22T01:16:03.892430-03:00",
       "trader": "Midas14",
       "title": "Kalshi stops offering sports event contracts in Ma"
-    },
-    "8a618352c5cc310a": {
-      "timestamp": "2026-01-22T01:16:03.249481-03:00",
-      "trader": "cashy",
-      "title": "Pistons vs. Pelicans"
-    },
-    "1dfcf0b2ac89fc76": {
-      "timestamp": "2026-01-21T17:58:15.785904-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 1 country in 2026?"
-    },
-    "b370e46feeb97710": {
-      "timestamp": "2026-01-21T16:43:00.492753-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix dip to $70 in January?"
-    },
-    "6b144190b05afeb8": {
-      "timestamp": "2026-01-21T16:43:00.031810-03:00",
-      "trader": "Midas14",
-      "title": "Will Netflix dip to $70 in January?"
-    },
-    "c3c12e7ec10ae26f": {
-      "timestamp": "2026-01-21T16:42:59.571368-03:00",
-      "trader": "Midas14",
-      "title": "Will Alexander Bublik win the 2026 Australian Open"
-    },
-    "70bf644e1375d4f4": {
-      "timestamp": "2026-01-21T16:42:59.106371-03:00",
-      "trader": "Midas14",
-      "title": "Will Carlos Alcaraz win the 2026 Australian Open?"
-    },
-    "845b9146ec5efd24": {
-      "timestamp": "2026-01-21T16:42:58.412045-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "6b0dd98441ec4517": {
-      "timestamp": "2026-01-21T16:42:57.950490-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "4150348e21b627e9": {
-      "timestamp": "2026-01-21T16:42:57.482348-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
     }
   },
-  "last_check": "2026-02-06T15:07:59.298036-03:00"
+  "last_check": "2026-02-06T16:51:27.927384-03:00"
 }
