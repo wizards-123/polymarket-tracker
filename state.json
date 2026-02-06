@@ -1,5 +1,55 @@
 {
   "notified_trades": {
+    "402ba3157891afdd": {
+      "timestamp": "2026-02-06T11:26:12.952502-03:00",
+      "trader": "cashy",
+      "title": "Will the next official US-Iran meeting be in Oman?"
+    },
+    "0182156f2f5bee2d": {
+      "timestamp": "2026-02-06T11:26:12.347289-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "63442627b900d6c8": {
+      "timestamp": "2026-02-06T11:26:11.741056-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "38ac6a00b910b3d1": {
+      "timestamp": "2026-02-06T11:26:11.104605-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "172fa4d1d4c0b4d6": {
+      "timestamp": "2026-02-06T11:26:10.480237-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "2240d08f6eec4bd9": {
+      "timestamp": "2026-02-06T11:26:09.850685-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "426d5c727d47c4a6": {
+      "timestamp": "2026-02-06T11:26:09.247096-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "0b60b274a070202c": {
+      "timestamp": "2026-02-06T11:26:08.661243-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
+    "6912093facf537f5": {
+      "timestamp": "2026-02-06T11:26:08.055626-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
+    "1cb46dd51d9cad30": {
+      "timestamp": "2026-02-06T11:26:07.419397-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
     "bfc576062c5268ba": {
       "timestamp": "2026-02-06T08:49:37.569127-03:00",
       "trader": "cashy",
@@ -2449,57 +2499,7 @@
       "timestamp": "2026-01-21T16:42:57.021251-03:00",
       "trader": "cashy",
       "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "48d3bc54645f3029": {
-      "timestamp": "2026-01-21T16:42:56.564842-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "d04d6209288116b1": {
-      "timestamp": "2026-01-21T16:42:56.106177-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "8b20d1639f8c0fe5": {
-      "timestamp": "2026-01-21T15:09:17.506169-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "08abdc50f3ba8ba3": {
-      "timestamp": "2026-01-21T15:09:16.875458-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "940af45ee4956f74": {
-      "timestamp": "2026-01-21T12:01:46.421794-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "7519f6c60c8d8252": {
-      "timestamp": "2026-01-21T12:01:45.851783-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "36057a8f20cb9dd2": {
-      "timestamp": "2026-01-21T12:01:45.246150-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "02636d8fe890cb02": {
-      "timestamp": "2026-01-21T10:58:44.868538-03:00",
-      "trader": "Midas14",
-      "title": "Will Google say \"Gemini 3\" during earnings call?"
-    },
-    "2e115ffc757cdc2e": {
-      "timestamp": "2026-01-21T10:58:44.224130-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
-    },
-    "9d898042710376bf": {
-      "timestamp": "2026-01-21T10:58:43.752071-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 21, 2026?"
     }
   },
-  "last_check": "2026-02-06T08:49:37.778211-03:00"
+  "last_check": "2026-02-06T11:26:13.513564-03:00"
 }
