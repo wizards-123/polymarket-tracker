@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "38151c4a4f65f0c5": {
+      "timestamp": "2026-02-06T13:08:16.963077-03:00",
+      "trader": "cashy",
+      "title": "US x Iran nuclear talks resume by March 31? "
+    },
     "402ba3157891afdd": {
       "timestamp": "2026-02-06T11:26:12.952502-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-21T16:42:57.482348-03:00",
       "trader": "cashy",
       "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "8cc4e505df2489c7": {
-      "timestamp": "2026-01-21T16:42:57.021251-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
     }
   },
-  "last_check": "2026-02-06T11:26:13.513564-03:00"
+  "last_check": "2026-02-06T13:08:17.210636-03:00"
 }
