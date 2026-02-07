@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "b51e94eed2d75003": {
+      "timestamp": "2026-02-07T08:41:18.429770-03:00",
+      "trader": "Midas14",
+      "title": "Will Delcy Rodr\u00edguez be the leader of Venezuela en"
+    },
     "d34220c08c654c00": {
       "timestamp": "2026-02-07T06:55:42.459206-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-23T07:54:19.937659-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "6497501b8a30dfa6": {
-      "timestamp": "2026-01-23T07:54:19.405801-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
     }
   },
-  "last_check": "2026-02-07T07:55:57.786812-03:00"
+  "last_check": "2026-02-07T08:41:18.430081-03:00"
 }
