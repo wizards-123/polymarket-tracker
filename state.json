@@ -1,5 +1,15 @@
 {
   "notified_trades": {
+    "bf198a4a31481e63": {
+      "timestamp": "2026-02-07T11:55:45.638873-03:00",
+      "trader": "Midas14",
+      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
+    },
+    "86963c2aa258777e": {
+      "timestamp": "2026-02-07T11:55:45.064992-03:00",
+      "trader": "Midas14",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
     "b51e94eed2d75003": {
       "timestamp": "2026-02-07T08:41:18.429770-03:00",
       "trader": "Midas14",
@@ -2489,17 +2499,7 @@
       "timestamp": "2026-01-23T07:54:21.005854-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "c4b913f61ac4ade6": {
-      "timestamp": "2026-01-23T07:54:20.485630-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "5ec4fe587079f59e": {
-      "timestamp": "2026-01-23T07:54:19.937659-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
     }
   },
-  "last_check": "2026-02-07T10:55:10.862159-03:00"
+  "last_check": "2026-02-07T11:55:45.639235-03:00"
 }
