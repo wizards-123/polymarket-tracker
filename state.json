@@ -1,5 +1,65 @@
 {
   "notified_trades": {
+    "e85392343b79ee9e": {
+      "timestamp": "2026-02-08T16:05:46.850489-03:00",
+      "trader": "cashy",
+      "title": "Will Liverpool FC vs. Manchester City FC end in a "
+    },
+    "90a8ff0348ba8004": {
+      "timestamp": "2026-02-08T16:05:46.246596-03:00",
+      "trader": "cashy",
+      "title": "Will Liverpool FC vs. Manchester City FC end in a "
+    },
+    "a1e11d111fbc24a9": {
+      "timestamp": "2026-02-08T16:05:45.668234-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "6c48a770cccb2767": {
+      "timestamp": "2026-02-08T16:05:45.042198-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "7ee03119f2797872": {
+      "timestamp": "2026-02-08T16:05:44.436325-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "8a4431e531f72c4f": {
+      "timestamp": "2026-02-08T16:05:43.811478-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "e795cd3b6532b62d": {
+      "timestamp": "2026-02-08T16:05:43.210281-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "1e20f95290fac9c9": {
+      "timestamp": "2026-02-08T16:05:42.554799-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "76c0f4934031bedf": {
+      "timestamp": "2026-02-08T16:05:41.969704-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "4616cc0cb5fe60d6": {
+      "timestamp": "2026-02-08T16:05:41.362294-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "139f51cc40f8becd": {
+      "timestamp": "2026-02-08T16:05:40.753589-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
+    "5b591bd550bab93e": {
+      "timestamp": "2026-02-08T16:05:40.162950-03:00",
+      "trader": "cashy",
+      "title": "Will Manchester City FC win on 2026-02-08?"
+    },
     "ae5771f021f91dc9": {
       "timestamp": "2026-02-08T14:00:16.449491-03:00",
       "trader": "Midas14",
@@ -2439,67 +2499,7 @@
       "timestamp": "2026-01-24T10:42:12.281307-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Gaza on January 24, 2026?"
-    },
-    "97f3c632af4f3a50": {
-      "timestamp": "2026-01-24T05:51:29.047467-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 24, 2026?"
-    },
-    "9fc3ba27b951d950": {
-      "timestamp": "2026-01-24T05:51:28.478740-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 24, 2026?"
-    },
-    "1ddc1ef1f85fb0d2": {
-      "timestamp": "2026-01-23T20:39:12.813738-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 24, 2026?"
-    },
-    "387745cb0fbf48d2": {
-      "timestamp": "2026-01-23T19:54:39.947430-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 24, 2026?"
-    },
-    "2a8b80b3e0c3d0b8": {
-      "timestamp": "2026-01-23T19:43:01.162246-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 26, 2026?"
-    },
-    "0b21efaa4a381b99": {
-      "timestamp": "2026-01-23T19:43:00.526341-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 26, 2026?"
-    },
-    "a0b91b86987ba5e3": {
-      "timestamp": "2026-01-23T19:42:59.902960-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 26, 2026?"
-    },
-    "43f2b523d2b46594": {
-      "timestamp": "2026-01-23T19:42:59.271418-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 26, 2026?"
-    },
-    "3daed9591bf7a6fb": {
-      "timestamp": "2026-01-23T19:42:58.651739-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 26, 2026?"
-    },
-    "41336764602302b2": {
-      "timestamp": "2026-01-23T19:42:58.022497-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 24, 2026?"
-    },
-    "ef02b86b4429d5a6": {
-      "timestamp": "2026-01-23T16:39:22.712995-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 24, 2026?"
-    },
-    "cd1830fe15ecf6ad": {
-      "timestamp": "2026-01-23T14:00:41.068951-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 24, 2026?"
     }
   },
-  "last_check": "2026-02-08T14:55:32.603574-03:00"
+  "last_check": "2026-02-08T16:05:47.110753-03:00"
 }
