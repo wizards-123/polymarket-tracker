@@ -1,5 +1,25 @@
 {
   "notified_trades": {
+    "ca494986469898a0": {
+      "timestamp": "2026-02-08T10:57:14.615128-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 8, 2026?"
+    },
+    "95c3aa7f4efcaac1": {
+      "timestamp": "2026-02-08T10:57:14.049984-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 8, 2026?"
+    },
+    "11d8d8ce59f38ce1": {
+      "timestamp": "2026-02-08T10:57:13.490176-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 8, 2026?"
+    },
+    "7aeb23aed4e8f7e7": {
+      "timestamp": "2026-02-08T10:57:12.917890-03:00",
+      "trader": "cashy",
+      "title": "Bitcoin Up or Down - February 8, 8:45AM-9:00AM ET"
+    },
     "bf198a4a31481e63": {
       "timestamp": "2026-02-07T11:55:45.638873-03:00",
       "trader": "Midas14",
@@ -2479,27 +2499,7 @@
       "timestamp": "2026-01-23T08:39:16.411238-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "8d0f20e82f7716e1": {
-      "timestamp": "2026-01-23T08:39:15.848493-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "bfbde5e5fe2be43f": {
-      "timestamp": "2026-01-23T07:54:22.096895-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "86132304cb94465e": {
-      "timestamp": "2026-01-23T07:54:21.553805-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
-    },
-    "c4dd8bed43a7ce92": {
-      "timestamp": "2026-01-23T07:54:21.005854-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 23, 2026?"
     }
   },
-  "last_check": "2026-02-08T08:58:17.371320-03:00"
+  "last_check": "2026-02-08T10:57:14.955840-03:00"
 }
