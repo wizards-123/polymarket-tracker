@@ -1,5 +1,25 @@
 {
   "notified_trades": {
+    "36c399fa8fac0e12": {
+      "timestamp": "2026-02-09T05:05:26.203913-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Lebanon on February 9, 2026?"
+    },
+    "0b22cb6d1e2a4c38": {
+      "timestamp": "2026-02-09T05:05:25.729362-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "c8a99f77258bebde": {
+      "timestamp": "2026-02-09T05:05:25.243503-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "cb7fcd0e13f08548": {
+      "timestamp": "2026-02-09T05:05:24.764950-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
     "e85392343b79ee9e": {
       "timestamp": "2026-02-08T16:05:46.850489-03:00",
       "trader": "cashy",
@@ -2479,27 +2499,7 @@
       "timestamp": "2026-01-24T10:42:14.396598-03:00",
       "trader": "Midas14",
       "title": "Will the S&P 500 Index gain at least 4% on any day"
-    },
-    "8a84ff743d491ba3": {
-      "timestamp": "2026-01-24T10:42:13.967058-03:00",
-      "trader": "Midas14",
-      "title": "GPT-5.3 released by January 31?"
-    },
-    "7fdfdda38fa49406": {
-      "timestamp": "2026-01-24T10:42:13.535089-03:00",
-      "trader": "Midas14",
-      "title": "Will Google say \"Search Advertising\" or \"Search Ad"
-    },
-    "7d8946448155c858": {
-      "timestamp": "2026-01-24T10:42:12.734502-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 24, 2026?"
-    },
-    "f7778b879c899df1": {
-      "timestamp": "2026-01-24T10:42:12.281307-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 24, 2026?"
     }
   },
-  "last_check": "2026-02-09T02:45:35.263803-03:00"
+  "last_check": "2026-02-09T05:05:26.446798-03:00"
 }
