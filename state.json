@@ -1,5 +1,30 @@
 {
   "notified_trades": {
+    "f91d7861131d4ead": {
+      "timestamp": "2026-02-09T11:38:58.829633-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "4a510f3f6029219d": {
+      "timestamp": "2026-02-09T11:38:58.241865-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "381c257cba60c3e1": {
+      "timestamp": "2026-02-09T11:38:57.602859-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by March 31, 2026?"
+    },
+    "005515ea66868b9a": {
+      "timestamp": "2026-02-09T11:38:56.993514-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "4e8306839118f517": {
+      "timestamp": "2026-02-09T11:38:56.390845-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
     "faba2122e508cc7e": {
       "timestamp": "2026-02-09T08:13:18.577597-03:00",
       "trader": "Midas14",
@@ -2474,32 +2499,7 @@
       "timestamp": "2026-01-25T04:38:40.999251-03:00",
       "trader": "Midas14",
       "title": "U.S. x Iran Military Engagement by June 30, 2026?"
-    },
-    "b616097132da4116": {
-      "timestamp": "2026-01-25T04:38:40.589313-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "e374cb73a4124453": {
-      "timestamp": "2026-01-24T20:49:22.773655-03:00",
-      "trader": "Midas14",
-      "title": "Kalshi stops offering sports event contracts in Ma"
-    },
-    "79bce9a29561712b": {
-      "timestamp": "2026-01-24T18:32:55.571022-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 1 country in 2026?"
-    },
-    "635503d7f0129ab1": {
-      "timestamp": "2026-01-24T14:38:20.453842-03:00",
-      "trader": "Midas14",
-      "title": "Tesla launches unsupervised full self driving (FSD"
-    },
-    "68ebb3fe3142f487": {
-      "timestamp": "2026-01-24T14:38:20.039848-03:00",
-      "trader": "Midas14",
-      "title": "Will Khamenei leave Iran by March 31?"
     }
   },
-  "last_check": "2026-02-09T08:13:18.577966-03:00"
+  "last_check": "2026-02-09T11:38:59.383791-03:00"
 }
