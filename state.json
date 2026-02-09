@@ -1,5 +1,45 @@
 {
   "notified_trades": {
+    "bf383814a94f39f2": {
+      "timestamp": "2026-02-09T17:05:33.361180-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "5887394e36c59078": {
+      "timestamp": "2026-02-09T17:05:32.935736-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "878911e0728d0bea": {
+      "timestamp": "2026-02-09T17:05:32.493129-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "b86c26560e7ef0cc": {
+      "timestamp": "2026-02-09T17:05:32.055387-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "7ecf0f07cea3a06b": {
+      "timestamp": "2026-02-09T17:05:31.621493-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 10, 2026?"
+    },
+    "355105357aac360f": {
+      "timestamp": "2026-02-09T17:05:31.198383-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "fff93300a2a52f9f": {
+      "timestamp": "2026-02-09T17:05:30.769958-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "54c510c769de63f5": {
+      "timestamp": "2026-02-09T17:05:30.343653-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
     "d1ce54ed5b36485a": {
       "timestamp": "2026-02-09T14:37:53.715789-03:00",
       "trader": "cashy",
@@ -2459,47 +2499,7 @@
       "timestamp": "2026-01-29T18:54:20.757088-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "1509d28427f52736": {
-      "timestamp": "2026-01-29T18:54:20.323291-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "8dffe3b085d4a97f": {
-      "timestamp": "2026-01-29T18:54:19.900748-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 29, 2026?"
-    },
-    "d9c9879b3cc398b3": {
-      "timestamp": "2026-01-29T14:57:28.127629-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "da61fd8fa9caac3f": {
-      "timestamp": "2026-01-29T14:57:27.674275-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "895021b1b82d11af": {
-      "timestamp": "2026-01-29T14:57:27.239406-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "ddf7d9cc2eb2f370": {
-      "timestamp": "2026-01-29T14:57:26.813434-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "35565466c3263565": {
-      "timestamp": "2026-01-29T12:59:36.102646-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 29, 2026?"
-    },
-    "02eef533674b48f2": {
-      "timestamp": "2026-01-29T08:07:19.877165-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
     }
   },
-  "last_check": "2026-02-09T14:37:53.998416-03:00"
+  "last_check": "2026-02-09T17:05:33.609019-03:00"
 }
