@@ -1,5 +1,40 @@
 {
   "notified_trades": {
+    "faba2122e508cc7e": {
+      "timestamp": "2026-02-09T08:13:18.577597-03:00",
+      "trader": "Midas14",
+      "title": "Will Alphabet be the largest company in the world "
+    },
+    "567da49bd18bb046": {
+      "timestamp": "2026-02-09T08:13:17.139610-03:00",
+      "trader": "Midas14",
+      "title": "Will NVIDIA (NVDA) close above $170 end of Februar"
+    },
+    "e8f4137c1c730f4b": {
+      "timestamp": "2026-02-09T08:13:16.386109-03:00",
+      "trader": "Midas14",
+      "title": "Any US state legislature votes on secession by Jun"
+    },
+    "56b63595e2bd2c3c": {
+      "timestamp": "2026-02-09T08:13:15.955842-03:00",
+      "trader": "Midas14",
+      "title": "Will US GDP growth in Q4 2025 be less than 1.0%?"
+    },
+    "4c86c0a860c74ac9": {
+      "timestamp": "2026-02-09T08:13:15.344712-03:00",
+      "trader": "cashy",
+      "title": "US strikes Iran by February 9, 2026?"
+    },
+    "585dd3372a9e1588": {
+      "timestamp": "2026-02-09T08:13:14.928180-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "6696ffe44d413c1c": {
+      "timestamp": "2026-02-09T08:13:14.516864-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
     "36c399fa8fac0e12": {
       "timestamp": "2026-02-09T05:05:26.203913-03:00",
       "trader": "cashy",
@@ -2464,42 +2499,7 @@
       "timestamp": "2026-01-24T14:38:20.039848-03:00",
       "trader": "Midas14",
       "title": "Will Khamenei leave Iran by March 31?"
-    },
-    "2d3df9ebc363a119": {
-      "timestamp": "2026-01-24T14:38:19.625197-03:00",
-      "trader": "Midas14",
-      "title": "Internet access restored in Iran by Friday?"
-    },
-    "7b15a6026e761a0c": {
-      "timestamp": "2026-01-24T14:38:19.204919-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "1d5578c1239b3cb3": {
-      "timestamp": "2026-01-24T14:38:18.786451-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "6708e11062a1a29d": {
-      "timestamp": "2026-01-24T13:50:12.564253-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "7522ecae432a4e1b": {
-      "timestamp": "2026-01-24T10:42:15.264232-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by June 30, 2026?"
-    },
-    "3b177e149dc2be3e": {
-      "timestamp": "2026-01-24T10:42:14.823363-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "9c82138ef19d454b": {
-      "timestamp": "2026-01-24T10:42:14.396598-03:00",
-      "trader": "Midas14",
-      "title": "Will the S&P 500 Index gain at least 4% on any day"
     }
   },
-  "last_check": "2026-02-09T05:05:26.446798-03:00"
+  "last_check": "2026-02-09T08:13:18.577966-03:00"
 }
