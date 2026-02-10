@@ -1,5 +1,25 @@
 {
   "notified_trades": {
+    "bedbd333777ed8fb": {
+      "timestamp": "2026-02-10T19:09:56.675550-03:00",
+      "trader": "Midas14",
+      "title": "Will Google reach $405 in February?"
+    },
+    "dcd129e5a9047b4f": {
+      "timestamp": "2026-02-10T19:09:56.150302-03:00",
+      "trader": "Midas14",
+      "title": "Will Meta (META) close above $640 end of February?"
+    },
+    "b14b82abfd0b048f": {
+      "timestamp": "2026-02-10T19:09:55.201230-03:00",
+      "trader": "Midas14",
+      "title": "Will NVIDIA (NVDA) close above $190 end of Februar"
+    },
+    "ea4c92c5379a96e7": {
+      "timestamp": "2026-02-10T19:09:54.701966-03:00",
+      "trader": "Midas14",
+      "title": "Will NVIDIA (NVDA) close above $170 end of Februar"
+    },
     "17eaf9b559fe59dc": {
       "timestamp": "2026-02-10T08:15:36.531348-03:00",
       "trader": "cashy",
@@ -2479,27 +2499,7 @@
       "timestamp": "2026-01-29T19:58:08.984854-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "f0778144a8dbe891": {
-      "timestamp": "2026-01-29T19:58:08.561116-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "9149b73f20283547": {
-      "timestamp": "2026-01-29T19:58:08.138275-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "90d2330ab409b828": {
-      "timestamp": "2026-01-29T19:58:07.715616-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "e8febbcbfc33f46a": {
-      "timestamp": "2026-01-29T19:58:07.292841-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
     }
   },
-  "last_check": "2026-02-10T17:09:12.900276-03:00"
+  "last_check": "2026-02-10T19:09:56.675946-03:00"
 }
