@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "6f10c4538f520bcb": {
+      "timestamp": "2026-02-10T05:07:42.725532-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Lebanon on February 10, 2026?"
+    },
     "bf383814a94f39f2": {
       "timestamp": "2026-02-09T17:05:33.361180-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-29T19:58:06.451645-03:00",
       "trader": "cashy",
       "title": "US strikes Iran by February 6, 2026?"
-    },
-    "7942ff7a38e3b51d": {
-      "timestamp": "2026-01-29T18:54:20.757088-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
     }
   },
-  "last_check": "2026-02-10T02:47:41.033577-03:00"
+  "last_check": "2026-02-10T05:07:42.939874-03:00"
 }
