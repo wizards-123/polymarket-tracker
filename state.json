@@ -1,5 +1,15 @@
 {
   "notified_trades": {
+    "17eaf9b559fe59dc": {
+      "timestamp": "2026-02-10T08:15:36.531348-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
+    "faa015e6fe18c4c9": {
+      "timestamp": "2026-02-10T08:15:35.911042-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 9, 2026?"
+    },
     "6f10c4538f520bcb": {
       "timestamp": "2026-02-10T05:07:42.725532-03:00",
       "trader": "cashy",
@@ -2489,17 +2499,7 @@
       "timestamp": "2026-01-29T19:58:07.292841-03:00",
       "trader": "cashy",
       "title": "US strikes Iran by February 6, 2026?"
-    },
-    "990c42411104ebd5": {
-      "timestamp": "2026-01-29T19:58:06.870255-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "c1f040a6ccf732c4": {
-      "timestamp": "2026-01-29T19:58:06.451645-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
     }
   },
-  "last_check": "2026-02-10T05:07:42.939874-03:00"
+  "last_check": "2026-02-10T08:15:36.796883-03:00"
 }
