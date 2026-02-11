@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "e778504a31627caf": {
+      "timestamp": "2026-02-11T07:35:28.164431-03:00",
+      "trader": "cashy",
+      "title": "Will Israel strike Gaza on February 11, 2026?"
+    },
     "bedbd333777ed8fb": {
       "timestamp": "2026-02-10T19:09:56.675550-03:00",
       "trader": "Midas14",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-29T19:58:09.409367-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "658b2352c3adb4d0": {
-      "timestamp": "2026-01-29T19:58:08.984854-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
     }
   },
-  "last_check": "2026-02-11T05:03:51.087507-03:00"
+  "last_check": "2026-02-11T07:35:28.514451-03:00"
 }
