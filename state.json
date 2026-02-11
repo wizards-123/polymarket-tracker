@@ -1,5 +1,40 @@
 {
   "notified_trades": {
+    "b6521dd4bd92eec9": {
+      "timestamp": "2026-02-11T17:00:52.259827-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "3432fbda2f52b1e9": {
+      "timestamp": "2026-02-11T17:00:51.745618-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "b5d7e521f2cbccc2": {
+      "timestamp": "2026-02-11T17:00:51.288654-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "e42d61b7a9c2e771": {
+      "timestamp": "2026-02-11T17:00:50.803683-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "866bd75ba57c4b9b": {
+      "timestamp": "2026-02-11T17:00:50.344234-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "6fe7a99d8b53e13e": {
+      "timestamp": "2026-02-11T17:00:49.886352-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "ec07e282df398261": {
+      "timestamp": "2026-02-11T17:00:49.414432-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
     "e778504a31627caf": {
       "timestamp": "2026-02-11T07:35:28.164431-03:00",
       "trader": "cashy",
@@ -2464,42 +2499,7 @@
       "timestamp": "2026-01-29T20:51:37.560674-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "d86612e8d04aa5ad": {
-      "timestamp": "2026-01-29T20:51:36.958464-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "848f36939532569e": {
-      "timestamp": "2026-01-29T20:51:36.357548-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "e0ee89e43c7f8905": {
-      "timestamp": "2026-01-29T19:58:11.094709-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "08c42ab2714bd6b3": {
-      "timestamp": "2026-01-29T19:58:10.674855-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 29, 2026?"
-    },
-    "61f07026e917f69b": {
-      "timestamp": "2026-01-29T19:58:10.251040-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 28, 2026?"
-    },
-    "d1fbddfe0817bc41": {
-      "timestamp": "2026-01-29T19:58:09.831951-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "fecfd6e856026a03": {
-      "timestamp": "2026-01-29T19:58:09.409367-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
     }
   },
-  "last_check": "2026-02-11T14:46:04.186306-03:00"
+  "last_check": "2026-02-11T17:00:52.504971-03:00"
 }
