@@ -1,5 +1,15 @@
 {
   "notified_trades": {
+    "b8654839478d20fb": {
+      "timestamp": "2026-02-11T20:56:39.628460-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "880c8c23ab8878a7": {
+      "timestamp": "2026-02-11T20:56:39.132841-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
     "2f3bdca8a3e251ed": {
       "timestamp": "2026-02-11T20:03:14.096525-03:00",
       "trader": "cashy",
@@ -2489,17 +2499,7 @@
       "timestamp": "2026-01-29T20:51:40.619201-03:00",
       "trader": "cashy",
       "title": "US government shutdown Saturday?"
-    },
-    "991eb5b96b80c534": {
-      "timestamp": "2026-01-29T20:51:40.002182-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "ebf63ffe2687a392": {
-      "timestamp": "2026-01-29T20:51:39.380722-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
     }
   },
-  "last_check": "2026-02-11T20:03:14.311678-03:00"
+  "last_check": "2026-02-11T20:56:39.833743-03:00"
 }
