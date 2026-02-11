@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "0c5fd5c5cafc712a": {
+      "timestamp": "2026-02-11T18:51:28.475043-03:00",
+      "trader": "Midas14",
+      "title": "Will Google reach $385 in February?"
+    },
     "b6521dd4bd92eec9": {
       "timestamp": "2026-02-11T17:00:52.259827-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-29T20:51:38.170599-03:00",
       "trader": "cashy",
       "title": "US government shutdown Saturday?"
-    },
-    "5787dae35f41b196": {
-      "timestamp": "2026-01-29T20:51:37.560674-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
     }
   },
-  "last_check": "2026-02-11T17:00:52.504971-03:00"
+  "last_check": "2026-02-11T18:51:28.475437-03:00"
 }
