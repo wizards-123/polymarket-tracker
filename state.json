@@ -1,5 +1,15 @@
 {
   "notified_trades": {
+    "3ac3c2e55a5a2977": {
+      "timestamp": "2026-02-12T07:29:18.125529-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "38df29f006dbb4aa": {
+      "timestamp": "2026-02-12T07:29:17.718238-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
     "c3cbb8a6e6db2df3": {
       "timestamp": "2026-02-12T04:59:20.335377-03:00",
       "trader": "cashy",
@@ -2489,17 +2499,7 @@
       "timestamp": "2026-01-29T20:51:47.246464-03:00",
       "trader": "cashy",
       "title": "US strikes Iran by February 6, 2026?"
-    },
-    "baa5640ee3edc050": {
-      "timestamp": "2026-01-29T20:51:46.626859-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "63bda36e527f34a1": {
-      "timestamp": "2026-01-29T20:51:45.976330-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
     }
   },
-  "last_check": "2026-02-12T04:59:20.581600-03:00"
+  "last_check": "2026-02-12T07:29:18.356271-03:00"
 }
