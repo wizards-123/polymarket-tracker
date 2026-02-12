@@ -1,5 +1,50 @@
 {
   "notified_trades": {
+    "c3cbb8a6e6db2df3": {
+      "timestamp": "2026-02-12T04:59:20.335377-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "21ba0db21b44e5e5": {
+      "timestamp": "2026-02-12T04:59:19.907551-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "25cdfd10741a6b8f": {
+      "timestamp": "2026-02-12T04:59:19.500359-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "39f7e63cd1572f85": {
+      "timestamp": "2026-02-12T04:59:19.090883-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "aac182c68037dd58": {
+      "timestamp": "2026-02-12T04:59:18.674853-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "c7d83e74d60a5906": {
+      "timestamp": "2026-02-12T04:59:18.247853-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "510673bc16c5c22a": {
+      "timestamp": "2026-02-12T04:59:17.835845-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "c6a17a149be42103": {
+      "timestamp": "2026-02-12T04:59:17.424846-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
+    "33adf9ce314cf7f0": {
+      "timestamp": "2026-02-12T04:59:16.997213-03:00",
+      "trader": "cashy",
+      "title": "US x Iran meeting by February 28, 2026?"
+    },
     "b8654839478d20fb": {
       "timestamp": "2026-02-11T20:56:39.628460-03:00",
       "trader": "cashy",
@@ -2454,52 +2499,7 @@
       "timestamp": "2026-01-29T20:51:45.976330-03:00",
       "trader": "cashy",
       "title": "US strikes Iran by February 6, 2026?"
-    },
-    "72c566a17aaaf428": {
-      "timestamp": "2026-01-29T20:51:45.374827-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "f73e9ab39e59810d": {
-      "timestamp": "2026-01-29T20:51:44.755746-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "5f8a6ac84a986809": {
-      "timestamp": "2026-01-29T20:51:44.148049-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "75a29922124bad76": {
-      "timestamp": "2026-01-29T20:51:43.536814-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "3d4962c39570b71e": {
-      "timestamp": "2026-01-29T20:51:42.935387-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "5d7329612bceef22": {
-      "timestamp": "2026-01-29T20:51:42.362929-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "816f735725dabb6a": {
-      "timestamp": "2026-01-29T20:51:41.793918-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "e02d6ccd28d31a5a": {
-      "timestamp": "2026-01-29T20:51:41.222014-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
-    },
-    "c3057e3876c3e193": {
-      "timestamp": "2026-01-29T20:51:40.619201-03:00",
-      "trader": "cashy",
-      "title": "US government shutdown Saturday?"
     }
   },
-  "last_check": "2026-02-12T02:18:13.653322-03:00"
+  "last_check": "2026-02-12T04:59:20.581600-03:00"
 }
