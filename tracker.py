@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Polymarket Copy Trading Bot v5
+Polymarket Copy Trading Bot v6
 Monitora múltiplas wallets e envia notificações no Telegram
 """
 
@@ -58,46 +58,50 @@ def get_brt_now():
 
 
 def format_brt_datetime(dt=None):
-    """Formata datetime em BRT"""
+    """Formata datetime em DD/MM/AAAA - HH:MM (BRT)"""
     if dt is None:
         dt = get_brt_now()
-    return dt.strftime("%d/%m/%Y %H:%M:%S")
+    return dt.strftime("%d/%m/%Y - %H:%M")
 
 
-def timestamp_to_brt(timestamp):
-    """Converte timestamp Unix para datetime em BRT"""
+def timestamp_to_brt(timestamp_str):
+    """Converte timestamp ISO da API para datetime BRT"""
+    if not timestamp_str:
+        return None
     try:
-        if timestamp:
-            dt_utc = datetime.fromtimestamp(int(timestamp), tz=timezone.utc)
-            dt_brt = dt_utc.astimezone(BRT)
-            return dt_brt
-    except Exception as e:
-        print(f"Erro ao converter timestamp {timestamp}: {e}")
-    return None
+        # Tentar formato ISO com timezone
+        dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+        return dt.astimezone(BRT)
+    except:
+        pass
+    try:
+        # Tentar formato ISO sem timezone (assume UTC)
+        dt = datetime.fromisoformat(timestamp_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(BRT)
+    except:
+        pass
+    try:
+        # Tentar timestamp Unix em segundos
+        dt = datetime.fromtimestamp(float(timestamp_str), tz=timezone.utc)
+        return dt.astimezone(BRT)
+    except:
+        return None
 
 
 def load_state():
     """Carrega o estado (trades já notificadas)"""
-    try:
-        if os.path.exists(STATE_FILE):
-            with open(STATE_FILE, "r") as f:
-                data = json.load(f)
-                if isinstance(data.get("notified_trades"), list):
-                    data["notified_trades"] = {tid: True for tid in data["notified_trades"]}
-                return data
-    except Exception as e:
-        print(f"Erro ao carregar estado: {e}")
-    return {"notified_trades": {}, "last_check": None}
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, "r") as f:
+            return json.load(f)
+    return {"notified_trades": [], "last_check": None}
 
 
 def save_state(state):
     """Salva o estado"""
-    try:
-        with open(STATE_FILE, "w") as f:
-            json.dump(state, f, indent=2)
-        print(f"Estado salvo: {len(state.get('notified_trades', {}))} trades registradas")
-    except Exception as e:
-        print(f"Erro ao salvar estado: {e}")
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
 
 
 def get_recent_trades(wallet_address):
@@ -108,7 +112,7 @@ def get_recent_trades(wallet_address):
         "type": "TRADE",
         "limit": 20
     }
-    
+
     try:
         response = requests.get(url, params=params, timeout=30)
         response.raise_for_status()
@@ -118,51 +122,46 @@ def get_recent_trades(wallet_address):
         return []
 
 
-def calculate_size(trade_size_usd, target_bankroll):
-    """Calcula o tamanho da sua trade: MAX(proporcional, $1)"""
-    if target_bankroll <= 0:
-        return 1.0
-    proportional = trade_size_usd * (YOUR_BANKROLL / target_bankroll)
-    return max(proportional, 1.0)
-
-
-def create_trade_id(trade, wallet_address):
-    """Cria um ID único para a trade"""
-    unique_string = "|".join([
-        wallet_address.lower(),
-        str(trade.get("transactionHash", "")),
+def generate_trade_hash(trade, wallet_address):
+    """Gera hash único para identificar uma trade"""
+    fields = [
+        wallet_address,
         str(trade.get("timestamp", "")),
-        str(trade.get("conditionId", "")),
+        str(trade.get("title", "")),
+        str(trade.get("outcome", "")),
         str(trade.get("side", "")),
-        str(trade.get("size", "")),
-        str(trade.get("price", ""))
-    ])
-    trade_hash = hashlib.md5(unique_string.encode()).hexdigest()[:16]
-    return trade_hash
+        str(trade.get("price", "")),
+        str(trade.get("usdcSize", "")),
+        str(trade.get("transactionHash", "")),
+    ]
+    combined = "|".join(fields)
+    return hashlib.sha256(combined.encode()).hexdigest()[:16]
 
 
 def format_trade_message(trade, trader_name, trader_bankroll):
-    """Formata a mensagem de notificação"""
+    """Formata a mensagem de notificação no novo formato"""
     side = trade.get("side", "UNKNOWN")
-    title = trade.get("title", "Unknown Market")
     outcome = trade.get("outcome", "?")
+    title = trade.get("title", "Unknown Market")
     price = trade.get("price", 0)
     size_usd = trade.get("usdcSize", 0)
-    
-    # Porcentagem do bankroll do trader
-    trader_pct = (size_usd / trader_bankroll) * 100 if trader_bankroll > 0 else 0
-    
+
+    # Emoji do círculo: verde para BUY, vermelho para SELL
+    if side == "BUY":
+        side_line = f'🟢 BUY "{outcome}" @${price:.2f}'
+    else:
+        side_line = f'🔴 SELL "{outcome}" @${price:.2f}'
+
     # Horário da trade em BRT
     trade_timestamp = trade.get("timestamp")
     trade_dt_brt = timestamp_to_brt(trade_timestamp)
     trade_time_str = format_brt_datetime(trade_dt_brt) if trade_dt_brt else "Horário indisponível"
-    
-    message = f"""NOVA TRADE: @{trader_name}
-Mercado: {title}
-{side} {outcome} @${price:.2f}
-Tamanho @{trader_name}: ${size_usd:.2f} ({trader_pct:.1f}%)
-Trade realizada: {trade_time_str}"""
-    
+
+    message = f"""@{trader_name} - {title}
+{side_line}
+Volume: ${size_usd:.2f}
+{trade_time_str}"""
+
     return message
 
 
@@ -174,7 +173,7 @@ def send_telegram_message(message):
         "text": message,
         "disable_web_page_preview": True
     }
-    
+
     try:
         response = requests.post(url, json=payload, timeout=10)
         response.raise_for_status()
@@ -188,81 +187,63 @@ def send_telegram_message(message):
 def main():
     wallets = get_wallets()
     now_brt = format_brt_datetime()
-    
+
     print(f"{'='*50}")
-    print(f"Polymarket Tracker v5")
+    print(f"Polymarket Tracker v6")
     print(f"Execução: {now_brt} (BRT)")
     print(f"{'='*50}")
-    print(f"Seu bankroll: ${YOUR_BANKROLL}")
     print(f"Monitorando {len(wallets)} wallets:")
     for w in wallets:
-        print(f"  • @{w['name']}: ${w['bankroll']:,}")
+        print(f"  • @{w['name']}")
     print()
-    
+
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("ERRO: TELEGRAM_TOKEN e TELEGRAM_CHAT_ID são obrigatórios!")
         return
-    
+
     state = load_state()
-    notified_trades = state.get("notified_trades", {})
-    print(f"Trades já notificadas no histórico: {len(notified_trades)}")
-    print()
-    
-    total_new_trades = 0
-    
+    notified = set(state.get("notified_trades", []))
+    new_trades_found = 0
+
     for wallet in wallets:
         address = wallet["address"]
         name = wallet["name"]
-        bankroll = wallet["bankroll"]
-        
-        print(f"[{name}] Buscando trades...")
+        bankroll = wallet.get("bankroll", 1000)
+
+        print(f"\n--- @{name} ---")
         trades = get_recent_trades(address)
-        
+
         if not trades:
-            print(f"[{name}] Nenhuma trade encontrada")
+            print("  Nenhuma trade encontrada")
             continue
-        
-        print(f"[{name}] {len(trades)} trades na API")
-        
-        new_trades = []
+
+        print(f"  {len(trades)} trades recentes")
+
         for trade in trades:
-            trade_id = create_trade_id(trade, address)
-            if trade_id not in notified_trades:
-                new_trades.append((trade, trade_id))
-        
-        print(f"[{name}] {len(new_trades)} trades NOVAS")
-        total_new_trades += len(new_trades)
-        
-        for trade, trade_id in new_trades:
-            print(f"[{name}] Notificando: {trade.get('title', 'Unknown')[:40]}...")
+            trade_hash = generate_trade_hash(trade, address)
+
+            if trade_hash in notified:
+                continue
+
+            print(f"  Nova trade: {trade.get('title', '?')} | {trade.get('side', '?')} {trade.get('outcome', '?')}")
+
             message = format_trade_message(trade, name, bankroll)
             if send_telegram_message(message):
-                notified_trades[trade_id] = {
-                    "timestamp": get_brt_now().isoformat(),
-                    "trader": name,
-                    "title": trade.get("title", "")[:50]
-                }
-    
-    if len(notified_trades) > 500:
-        sorted_trades = sorted(
-            notified_trades.items(),
-            key=lambda x: x[1].get("timestamp", "") if isinstance(x[1], dict) else "",
-            reverse=True
-        )
-        notified_trades = dict(sorted_trades[:500])
-        print(f"\nLimpeza: mantendo últimas 500 trades no histórico")
-    
-    state["notified_trades"] = notified_trades
+                notified.add(trade_hash)
+                new_trades_found += 1
+
+    # Manter apenas os últimos 500 hashes
+    notified_list = list(notified)
+    if len(notified_list) > 500:
+        notified_list = notified_list[-500:]
+
+    state["notified_trades"] = notified_list
     state["last_check"] = get_brt_now().isoformat()
     save_state(state)
-    
-    print()
-    print(f"{'='*50}")
-    print(f"RESUMO")
-    print(f"{'='*50}")
-    print(f"Novas trades notificadas: {total_new_trades}")
-    print(f"Total no histórico: {len(notified_trades)}")
-    print(f"Concluído: {format_brt_datetime()}")
+
+    print(f"\n{'='*50}")
+    print(f"Resumo: {new_trades_found} novas trades notificadas")
+    print(f"Total de trades rastreadas: {len(notified_list)}")
 
 
 if __name__ == "__main__":
