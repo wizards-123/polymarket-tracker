@@ -1,2505 +1,505 @@
 {
-  "notified_trades": {
-    "a8b6d3d0ad48d403": {
-      "timestamp": "2026-02-13T11:27:35.883282-03:00",
-      "trader": "Midas14",
-      "title": "Will Meta (META) close above $640 end of February?"
-    },
-    "bac1fa548e572c2c": {
-      "timestamp": "2026-02-13T08:48:48.813929-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "3ac3c2e55a5a2977": {
-      "timestamp": "2026-02-12T07:29:18.125529-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "38df29f006dbb4aa": {
-      "timestamp": "2026-02-12T07:29:17.718238-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "c3cbb8a6e6db2df3": {
-      "timestamp": "2026-02-12T04:59:20.335377-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "21ba0db21b44e5e5": {
-      "timestamp": "2026-02-12T04:59:19.907551-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "25cdfd10741a6b8f": {
-      "timestamp": "2026-02-12T04:59:19.500359-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "39f7e63cd1572f85": {
-      "timestamp": "2026-02-12T04:59:19.090883-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "aac182c68037dd58": {
-      "timestamp": "2026-02-12T04:59:18.674853-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "c7d83e74d60a5906": {
-      "timestamp": "2026-02-12T04:59:18.247853-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "510673bc16c5c22a": {
-      "timestamp": "2026-02-12T04:59:17.835845-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "c6a17a149be42103": {
-      "timestamp": "2026-02-12T04:59:17.424846-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "33adf9ce314cf7f0": {
-      "timestamp": "2026-02-12T04:59:16.997213-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "b8654839478d20fb": {
-      "timestamp": "2026-02-11T20:56:39.628460-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "880c8c23ab8878a7": {
-      "timestamp": "2026-02-11T20:56:39.132841-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "2f3bdca8a3e251ed": {
-      "timestamp": "2026-02-11T20:03:14.096525-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "1952a27477a89c20": {
-      "timestamp": "2026-02-11T20:03:13.645448-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "0c5fd5c5cafc712a": {
-      "timestamp": "2026-02-11T18:51:28.475043-03:00",
-      "trader": "Midas14",
-      "title": "Will Google reach $385 in February?"
-    },
-    "b6521dd4bd92eec9": {
-      "timestamp": "2026-02-11T17:00:52.259827-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "3432fbda2f52b1e9": {
-      "timestamp": "2026-02-11T17:00:51.745618-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "b5d7e521f2cbccc2": {
-      "timestamp": "2026-02-11T17:00:51.288654-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "e42d61b7a9c2e771": {
-      "timestamp": "2026-02-11T17:00:50.803683-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "866bd75ba57c4b9b": {
-      "timestamp": "2026-02-11T17:00:50.344234-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "6fe7a99d8b53e13e": {
-      "timestamp": "2026-02-11T17:00:49.886352-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "ec07e282df398261": {
-      "timestamp": "2026-02-11T17:00:49.414432-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 28, 2026?"
-    },
-    "e778504a31627caf": {
-      "timestamp": "2026-02-11T07:35:28.164431-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 11, 2026?"
-    },
-    "bedbd333777ed8fb": {
-      "timestamp": "2026-02-10T19:09:56.675550-03:00",
-      "trader": "Midas14",
-      "title": "Will Google reach $405 in February?"
-    },
-    "dcd129e5a9047b4f": {
-      "timestamp": "2026-02-10T19:09:56.150302-03:00",
-      "trader": "Midas14",
-      "title": "Will Meta (META) close above $640 end of February?"
-    },
-    "b14b82abfd0b048f": {
-      "timestamp": "2026-02-10T19:09:55.201230-03:00",
-      "trader": "Midas14",
-      "title": "Will NVIDIA (NVDA) close above $190 end of Februar"
-    },
-    "ea4c92c5379a96e7": {
-      "timestamp": "2026-02-10T19:09:54.701966-03:00",
-      "trader": "Midas14",
-      "title": "Will NVIDIA (NVDA) close above $170 end of Februar"
-    },
-    "17eaf9b559fe59dc": {
-      "timestamp": "2026-02-10T08:15:36.531348-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "faa015e6fe18c4c9": {
-      "timestamp": "2026-02-10T08:15:35.911042-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "6f10c4538f520bcb": {
-      "timestamp": "2026-02-10T05:07:42.725532-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on February 10, 2026?"
-    },
-    "bf383814a94f39f2": {
-      "timestamp": "2026-02-09T17:05:33.361180-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "5887394e36c59078": {
-      "timestamp": "2026-02-09T17:05:32.935736-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "878911e0728d0bea": {
-      "timestamp": "2026-02-09T17:05:32.493129-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "b86c26560e7ef0cc": {
-      "timestamp": "2026-02-09T17:05:32.055387-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "7ecf0f07cea3a06b": {
-      "timestamp": "2026-02-09T17:05:31.621493-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 10, 2026?"
-    },
-    "355105357aac360f": {
-      "timestamp": "2026-02-09T17:05:31.198383-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "fff93300a2a52f9f": {
-      "timestamp": "2026-02-09T17:05:30.769958-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "54c510c769de63f5": {
-      "timestamp": "2026-02-09T17:05:30.343653-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "d1ce54ed5b36485a": {
-      "timestamp": "2026-02-09T14:37:53.715789-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "0824f8b275cb43a8": {
-      "timestamp": "2026-02-09T14:37:53.090065-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "b56f92cf8390609a": {
-      "timestamp": "2026-02-09T14:37:52.457517-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "2184f4e53cb4e1cb": {
-      "timestamp": "2026-02-09T14:37:51.812197-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "4bcc4bde8b6c66f9": {
-      "timestamp": "2026-02-09T14:37:51.170269-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "88200b95b44d41b0": {
-      "timestamp": "2026-02-09T14:37:50.518626-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "817c52d414b49bd8": {
-      "timestamp": "2026-02-09T14:37:49.886418-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "418cd4fd24c0547d": {
-      "timestamp": "2026-02-09T14:37:49.270235-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "2fdf0557f0ded9d4": {
-      "timestamp": "2026-02-09T14:37:48.655077-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "624e4aa6621093c9": {
-      "timestamp": "2026-02-09T14:37:48.017075-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "03ecd6d04f1e9c1e": {
-      "timestamp": "2026-02-09T14:37:47.283131-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "b0e69ba408179058": {
-      "timestamp": "2026-02-09T14:37:46.669192-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "73d4d5423729cc97": {
-      "timestamp": "2026-02-09T14:37:46.039055-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "04aae5510fda3ba6": {
-      "timestamp": "2026-02-09T14:37:45.408151-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "44e0c030045e77a2": {
-      "timestamp": "2026-02-09T14:37:44.772788-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "f5552a2cebde2f8f": {
-      "timestamp": "2026-02-09T14:37:44.124004-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "8ef9c31ad6140526": {
-      "timestamp": "2026-02-09T14:37:43.481476-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "ca003a63ceba7202": {
-      "timestamp": "2026-02-09T14:37:42.847153-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "bea81fe90ec0fa0d": {
-      "timestamp": "2026-02-09T14:37:42.229570-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "6891d6e03fb2943b": {
-      "timestamp": "2026-02-09T14:37:41.620152-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "f91d7861131d4ead": {
-      "timestamp": "2026-02-09T11:38:58.829633-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "4a510f3f6029219d": {
-      "timestamp": "2026-02-09T11:38:58.241865-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "381c257cba60c3e1": {
-      "timestamp": "2026-02-09T11:38:57.602859-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "005515ea66868b9a": {
-      "timestamp": "2026-02-09T11:38:56.993514-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "4e8306839118f517": {
-      "timestamp": "2026-02-09T11:38:56.390845-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "faba2122e508cc7e": {
-      "timestamp": "2026-02-09T08:13:18.577597-03:00",
-      "trader": "Midas14",
-      "title": "Will Alphabet be the largest company in the world "
-    },
-    "567da49bd18bb046": {
-      "timestamp": "2026-02-09T08:13:17.139610-03:00",
-      "trader": "Midas14",
-      "title": "Will NVIDIA (NVDA) close above $170 end of Februar"
-    },
-    "e8f4137c1c730f4b": {
-      "timestamp": "2026-02-09T08:13:16.386109-03:00",
-      "trader": "Midas14",
-      "title": "Any US state legislature votes on secession by Jun"
-    },
-    "56b63595e2bd2c3c": {
-      "timestamp": "2026-02-09T08:13:15.955842-03:00",
-      "trader": "Midas14",
-      "title": "Will US GDP growth in Q4 2025 be less than 1.0%?"
-    },
-    "4c86c0a860c74ac9": {
-      "timestamp": "2026-02-09T08:13:15.344712-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 9, 2026?"
-    },
-    "585dd3372a9e1588": {
-      "timestamp": "2026-02-09T08:13:14.928180-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "6696ffe44d413c1c": {
-      "timestamp": "2026-02-09T08:13:14.516864-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "36c399fa8fac0e12": {
-      "timestamp": "2026-02-09T05:05:26.203913-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on February 9, 2026?"
-    },
-    "0b22cb6d1e2a4c38": {
-      "timestamp": "2026-02-09T05:05:25.729362-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "c8a99f77258bebde": {
-      "timestamp": "2026-02-09T05:05:25.243503-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "cb7fcd0e13f08548": {
-      "timestamp": "2026-02-09T05:05:24.764950-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 9, 2026?"
-    },
-    "e85392343b79ee9e": {
-      "timestamp": "2026-02-08T16:05:46.850489-03:00",
-      "trader": "cashy",
-      "title": "Will Liverpool FC vs. Manchester City FC end in a "
-    },
-    "90a8ff0348ba8004": {
-      "timestamp": "2026-02-08T16:05:46.246596-03:00",
-      "trader": "cashy",
-      "title": "Will Liverpool FC vs. Manchester City FC end in a "
-    },
-    "a1e11d111fbc24a9": {
-      "timestamp": "2026-02-08T16:05:45.668234-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "6c48a770cccb2767": {
-      "timestamp": "2026-02-08T16:05:45.042198-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "7ee03119f2797872": {
-      "timestamp": "2026-02-08T16:05:44.436325-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "8a4431e531f72c4f": {
-      "timestamp": "2026-02-08T16:05:43.811478-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "e795cd3b6532b62d": {
-      "timestamp": "2026-02-08T16:05:43.210281-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "1e20f95290fac9c9": {
-      "timestamp": "2026-02-08T16:05:42.554799-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "76c0f4934031bedf": {
-      "timestamp": "2026-02-08T16:05:41.969704-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "4616cc0cb5fe60d6": {
-      "timestamp": "2026-02-08T16:05:41.362294-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "139f51cc40f8becd": {
-      "timestamp": "2026-02-08T16:05:40.753589-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "5b591bd550bab93e": {
-      "timestamp": "2026-02-08T16:05:40.162950-03:00",
-      "trader": "cashy",
-      "title": "Will Manchester City FC win on 2026-02-08?"
-    },
-    "ae5771f021f91dc9": {
-      "timestamp": "2026-02-08T14:00:16.449491-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "9588a8a766017e1e": {
-      "timestamp": "2026-02-08T14:00:16.022716-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "ccc348a7aaa3663e": {
-      "timestamp": "2026-02-08T14:00:15.388626-03:00",
-      "trader": "cashy",
-      "title": "Will Liverpool FC vs. Manchester City FC end in a "
-    },
-    "ca494986469898a0": {
-      "timestamp": "2026-02-08T10:57:14.615128-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 8, 2026?"
-    },
-    "95c3aa7f4efcaac1": {
-      "timestamp": "2026-02-08T10:57:14.049984-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 8, 2026?"
-    },
-    "11d8d8ce59f38ce1": {
-      "timestamp": "2026-02-08T10:57:13.490176-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 8, 2026?"
-    },
-    "7aeb23aed4e8f7e7": {
-      "timestamp": "2026-02-08T10:57:12.917890-03:00",
-      "trader": "cashy",
-      "title": "Bitcoin Up or Down - February 8, 8:45AM-9:00AM ET"
-    },
-    "bf198a4a31481e63": {
-      "timestamp": "2026-02-07T11:55:45.638873-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "86963c2aa258777e": {
-      "timestamp": "2026-02-07T11:55:45.064992-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "b51e94eed2d75003": {
-      "timestamp": "2026-02-07T08:41:18.429770-03:00",
-      "trader": "Midas14",
-      "title": "Will Delcy Rodr\u00edguez be the leader of Venezuela en"
-    },
-    "d34220c08c654c00": {
-      "timestamp": "2026-02-07T06:55:42.459206-03:00",
-      "trader": "cashy",
-      "title": "Will the U.S. invade Greenland in 2026?"
-    },
-    "f28b167e63d274bb": {
-      "timestamp": "2026-02-07T06:55:42.023328-03:00",
-      "trader": "cashy",
-      "title": "Israel and Saudi Arabia normalize relations by Mar"
-    },
-    "cbcb6ff729e779df": {
-      "timestamp": "2026-02-07T06:55:41.607764-03:00",
-      "trader": "cashy",
-      "title": "Will the Oklahoma City Thunder win the 2026 NBA Fi"
-    },
-    "747a9d0b943cb967": {
-      "timestamp": "2026-02-07T04:08:28.040839-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "762a39e1271a15e1": {
-      "timestamp": "2026-02-07T01:52:42.035354-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "41f5607f4383f9c5": {
-      "timestamp": "2026-02-07T01:52:41.438216-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "a675fbe4e605b202": {
-      "timestamp": "2026-02-07T01:52:40.810036-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "9752b7a28bbf5e0d": {
-      "timestamp": "2026-02-07T01:52:40.200211-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "05fe248e7e8efe0a": {
-      "timestamp": "2026-02-07T01:52:39.588160-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "e7ee76903742dde1": {
-      "timestamp": "2026-02-07T01:52:38.970129-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "6829ef4fdbdafe82": {
-      "timestamp": "2026-02-07T01:52:38.291059-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "b947de5f4bdbe5fd": {
-      "timestamp": "2026-02-07T01:52:37.661631-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "4d9c31a802e5b2ed": {
-      "timestamp": "2026-02-07T01:52:37.030719-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "6b709611d751a0b9": {
-      "timestamp": "2026-02-07T01:52:36.403030-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "19c9a97fb60c9496": {
-      "timestamp": "2026-02-07T01:52:35.805843-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "b61367d2151ac48e": {
-      "timestamp": "2026-02-07T01:52:35.222599-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "ef5bce0d31019e49": {
-      "timestamp": "2026-02-07T01:52:34.617265-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "c19499e7cd5b8c7c": {
-      "timestamp": "2026-02-07T01:52:33.993860-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "3f1bf1e87f74e391": {
-      "timestamp": "2026-02-07T01:52:33.379511-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "183cbba936b65cc9": {
-      "timestamp": "2026-02-07T01:52:32.766191-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "6091d9e3c2a3b1dc": {
-      "timestamp": "2026-02-07T01:52:32.140527-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "880bf18494b55d0b": {
-      "timestamp": "2026-02-07T01:52:31.514768-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "e9bf28234ac6ef9f": {
-      "timestamp": "2026-02-07T01:52:30.885118-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "c31a6c6d38230999": {
-      "timestamp": "2026-02-07T01:52:30.260431-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "e2906a6354ab6610": {
-      "timestamp": "2026-02-06T18:02:15.547892-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "7b87e00be8748fa0": {
-      "timestamp": "2026-02-06T18:02:14.923067-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "b0d8556e843bb04e": {
-      "timestamp": "2026-02-06T18:02:14.291437-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "db6eafebc6232220": {
-      "timestamp": "2026-02-06T18:02:13.690728-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "68f75f161668bb54": {
-      "timestamp": "2026-02-06T18:02:13.075848-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "128dada15b555dce": {
-      "timestamp": "2026-02-06T18:02:12.460873-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "8e18568baae2c93b": {
-      "timestamp": "2026-02-06T18:02:11.836481-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "c8d65ced4f343cf7": {
-      "timestamp": "2026-02-06T16:51:27.662615-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "42d5fe64c38a9514": {
-      "timestamp": "2026-02-06T16:51:27.239556-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "c3c1bb367d103119": {
-      "timestamp": "2026-02-06T16:51:26.815952-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "20329669e40bb045": {
-      "timestamp": "2026-02-06T16:51:26.401966-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "5638aad73404b61e": {
-      "timestamp": "2026-02-06T16:51:25.987099-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "a6474626c4f86caf": {
-      "timestamp": "2026-02-06T16:51:25.565207-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "6ee366e98c9c5f0e": {
-      "timestamp": "2026-02-06T16:51:25.154548-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "eaae8c931fc509f9": {
-      "timestamp": "2026-02-06T16:51:24.742295-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "8511565d04246b82": {
-      "timestamp": "2026-02-06T16:51:24.314016-03:00",
-      "trader": "cashy",
-      "title": "US x Iran meeting by February 6, 2026?"
-    },
-    "38151c4a4f65f0c5": {
-      "timestamp": "2026-02-06T13:08:16.963077-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "402ba3157891afdd": {
-      "timestamp": "2026-02-06T11:26:12.952502-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "0182156f2f5bee2d": {
-      "timestamp": "2026-02-06T11:26:12.347289-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "63442627b900d6c8": {
-      "timestamp": "2026-02-06T11:26:11.741056-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "38ac6a00b910b3d1": {
-      "timestamp": "2026-02-06T11:26:11.104605-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "172fa4d1d4c0b4d6": {
-      "timestamp": "2026-02-06T11:26:10.480237-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "2240d08f6eec4bd9": {
-      "timestamp": "2026-02-06T11:26:09.850685-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "426d5c727d47c4a6": {
-      "timestamp": "2026-02-06T11:26:09.247096-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "0b60b274a070202c": {
-      "timestamp": "2026-02-06T11:26:08.661243-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "6912093facf537f5": {
-      "timestamp": "2026-02-06T11:26:08.055626-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "1cb46dd51d9cad30": {
-      "timestamp": "2026-02-06T11:26:07.419397-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "bfc576062c5268ba": {
-      "timestamp": "2026-02-06T08:49:37.569127-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "11bdb4fa973a6d15": {
-      "timestamp": "2026-02-06T08:49:37.119640-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "324a7fd83f33b7f4": {
-      "timestamp": "2026-02-06T08:49:36.682489-03:00",
-      "trader": "cashy",
-      "title": "Will no qualifying US-Iran meeting occur by Februa"
-    },
-    "5051443ba93eae19": {
-      "timestamp": "2026-02-06T08:49:36.213119-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "6d92fa524ac59288": {
-      "timestamp": "2026-02-06T08:49:35.783633-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "0c596d6827fb414c": {
-      "timestamp": "2026-02-06T07:05:17.063235-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "a165f6d538ce4017": {
-      "timestamp": "2026-02-06T07:05:16.595235-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "884edf9ed7c45f9a": {
-      "timestamp": "2026-02-06T07:05:16.120168-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "494d15ad84d38eb0": {
-      "timestamp": "2026-02-06T07:05:15.649769-03:00",
-      "trader": "cashy",
-      "title": "Will the next official US-Iran meeting be in Oman?"
-    },
-    "2959400bc0a6d5cf": {
-      "timestamp": "2026-02-06T07:05:15.170923-03:00",
-      "trader": "cashy",
-      "title": "Will no qualifying US-Iran meeting occur by Februa"
-    },
-    "3a7e36bbdfe2453a": {
-      "timestamp": "2026-02-06T02:07:18.600816-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8c119ee1b8f8ef9c": {
-      "timestamp": "2026-02-05T02:08:28.670501-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "785e52c81cd273a8": {
-      "timestamp": "2026-02-05T02:08:28.265384-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "adf3d6e3aa20df7a": {
-      "timestamp": "2026-02-05T02:08:27.837485-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "6920dff1d116e60d": {
-      "timestamp": "2026-02-05T02:08:27.422031-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "7c05c65e7c2b10c8": {
-      "timestamp": "2026-02-05T02:08:27.012403-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "bb139deedf33af5f": {
-      "timestamp": "2026-02-05T02:08:26.602104-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "d8f5fa2480f6cb3a": {
-      "timestamp": "2026-02-05T02:08:26.195151-03:00",
-      "trader": "Midas14",
-      "title": "Gemini 3.5 released by June 30?"
-    },
-    "1b66972c037dda33": {
-      "timestamp": "2026-02-05T02:08:25.773940-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "64b4d80180512305": {
-      "timestamp": "2026-02-05T02:08:25.353655-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "dda621f70a9af8ba": {
-      "timestamp": "2026-02-05T02:08:24.928599-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "9cd9b1497376a17e": {
-      "timestamp": "2026-02-04T18:56:04.941768-03:00",
-      "trader": "Midas14",
-      "title": "Will the S&P 500 Index gain at least 3% on any day"
-    },
-    "15fb501d2aadec53": {
-      "timestamp": "2026-02-04T18:56:04.277247-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "0503a60111e26121": {
-      "timestamp": "2026-02-04T18:56:03.858342-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "66ea65a8596c1f1e": {
-      "timestamp": "2026-02-04T18:02:29.852259-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "82640b8a0ad22e61": {
-      "timestamp": "2026-02-04T18:02:29.422058-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "1e7b7d774b47277b": {
-      "timestamp": "2026-02-04T18:02:29.007638-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "21e00ab10513d9eb": {
-      "timestamp": "2026-02-04T18:02:28.578644-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "73a863c89bbef416": {
-      "timestamp": "2026-02-04T18:02:28.165340-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "7e2fa12b670180b3": {
-      "timestamp": "2026-02-04T18:02:27.729902-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "2135d4de2e933d30": {
-      "timestamp": "2026-02-04T18:02:27.307913-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "d409f39d70055531": {
-      "timestamp": "2026-02-04T18:02:26.878883-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "cb71bb9fe8c735f2": {
-      "timestamp": "2026-02-04T18:02:26.460851-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "df887eebc00d8c23": {
-      "timestamp": "2026-02-04T18:02:26.009779-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "1ba96ca182f4aabf": {
-      "timestamp": "2026-02-04T18:02:25.596330-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8a5613167d341eab": {
-      "timestamp": "2026-02-04T18:02:25.172673-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "76aded4184c8a7ab": {
-      "timestamp": "2026-02-04T18:02:24.693511-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "d0ec560ee15e39a4": {
-      "timestamp": "2026-02-04T18:02:24.280483-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "6ea4113ae76e81a7": {
-      "timestamp": "2026-02-04T18:02:23.854414-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "6e21ef61996dd535": {
-      "timestamp": "2026-02-04T18:02:23.437190-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "86f92b6de1dfd7a8": {
-      "timestamp": "2026-02-04T18:02:23.003795-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "3f34906cb6f01fc6": {
-      "timestamp": "2026-02-04T18:02:22.565710-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "90f05a09aaffbbcd": {
-      "timestamp": "2026-02-04T18:02:22.152844-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "e501f621645cddcd": {
-      "timestamp": "2026-02-04T18:02:21.721062-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "41b8e94ed9b76680": {
-      "timestamp": "2026-02-03T19:56:53.585842-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "8ef639415266aa03": {
-      "timestamp": "2026-02-03T18:21:52.355069-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "ad0aac0391d473f1": {
-      "timestamp": "2026-02-03T18:21:51.780939-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "d66c18442c0e2ccc": {
-      "timestamp": "2026-02-03T18:21:51.199958-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "715f1eb16095180b": {
-      "timestamp": "2026-02-03T16:51:16.212690-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "2097f19c3d7f50fd": {
-      "timestamp": "2026-02-03T14:38:48.798676-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "c691cd4dad5ccf78": {
-      "timestamp": "2026-02-03T14:38:48.308461-03:00",
-      "trader": "cashy",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "6600c3d06f33f4dd": {
-      "timestamp": "2026-02-03T14:38:47.829172-03:00",
-      "trader": "cashy",
-      "title": "U.S. x Iran Military Engagement by June 30, 2026?"
-    },
-    "477da3399a1859de": {
-      "timestamp": "2026-02-03T02:07:15.386512-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "9b9121c5d7134d97": {
-      "timestamp": "2026-02-03T02:07:14.784111-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "118749cc207811a9": {
-      "timestamp": "2026-02-03T02:07:14.188586-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "1db03464e2a870fc": {
-      "timestamp": "2026-02-03T02:07:13.590851-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "405e7c0e951a7d32": {
-      "timestamp": "2026-02-02T20:56:06.174094-03:00",
-      "trader": "Midas14",
-      "title": "Will Apple be the largest company in the world by "
-    },
-    "5f0d1f4034549117": {
-      "timestamp": "2026-02-02T20:56:05.194358-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "f5a0829abc7b0ffb": {
-      "timestamp": "2026-02-02T20:56:04.593494-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "7e060e3c77c7cac1": {
-      "timestamp": "2026-02-02T20:56:03.944987-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "74aaa9e5cf7d859e": {
-      "timestamp": "2026-02-02T20:56:03.336221-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "11cefee5f2f43382": {
-      "timestamp": "2026-02-02T20:56:02.708855-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "93d58051342fe705": {
-      "timestamp": "2026-02-02T20:56:02.095656-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8706fc941b75f901": {
-      "timestamp": "2026-02-02T20:56:01.498043-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "0525a0fd549d00a0": {
-      "timestamp": "2026-02-02T20:56:00.879610-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "236219988399b7b5": {
-      "timestamp": "2026-02-02T20:56:00.294888-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "c85fab8596a932a6": {
-      "timestamp": "2026-02-02T20:55:59.707919-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "08c2e6a12a6402f5": {
-      "timestamp": "2026-02-02T20:55:59.118719-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "0a8133e6b3a7398b": {
-      "timestamp": "2026-02-02T20:55:58.520037-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8db5c2d92574ee24": {
-      "timestamp": "2026-02-02T20:55:57.929931-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "4421e8eba8383d96": {
-      "timestamp": "2026-02-02T20:55:57.321546-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "408b71d417803768": {
-      "timestamp": "2026-02-02T20:55:56.733661-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "85f7c9ca48702b48": {
-      "timestamp": "2026-02-02T20:55:56.114803-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "83a0f248e09d0ddf": {
-      "timestamp": "2026-02-02T20:55:55.499554-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "5f30c7035014c5e6": {
-      "timestamp": "2026-02-02T20:55:54.874962-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "eb9a6d900acd247f": {
-      "timestamp": "2026-02-02T20:55:54.250797-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "36fe41af8f84bd56": {
-      "timestamp": "2026-02-02T20:55:53.659671-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "5de329f375e975e0": {
-      "timestamp": "2026-02-02T15:04:01.567890-03:00",
-      "trader": "cashy",
-      "title": " Iran agrees to end enrichment of uranium by March"
-    },
-    "22cdf4b7a38d2c75": {
-      "timestamp": "2026-02-02T13:01:38.197266-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "8460cda4d314be97": {
-      "timestamp": "2026-02-02T13:01:37.756759-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "9e10528aba42841e": {
-      "timestamp": "2026-02-02T13:01:37.290811-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "fd0fbbcea9fdd393": {
-      "timestamp": "2026-02-02T13:01:36.834094-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "961116da0df45729": {
-      "timestamp": "2026-02-02T13:01:36.395253-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "27025c008642f303": {
-      "timestamp": "2026-02-02T13:01:35.957386-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "c1edc4c3d4716bfa": {
-      "timestamp": "2026-02-02T13:01:35.513795-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "221549293c85f3de": {
-      "timestamp": "2026-02-02T13:01:35.081110-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "e595860f3be7f83d": {
-      "timestamp": "2026-02-02T13:01:34.632095-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "f8896b128ed39293": {
-      "timestamp": "2026-02-02T13:01:34.190986-03:00",
-      "trader": "cashy",
-      "title": " Iran agrees to end enrichment of uranium by March"
-    },
-    "3662f1ac58969ff3": {
-      "timestamp": "2026-02-02T13:01:33.742004-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "4aea2df5318a5193": {
-      "timestamp": "2026-02-02T13:01:33.281656-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "e1693011ca0e1557": {
-      "timestamp": "2026-02-02T11:25:44.685971-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "31da6e22da9181c9": {
-      "timestamp": "2026-02-02T11:25:44.111121-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "d060577389bb4261": {
-      "timestamp": "2026-02-02T11:25:43.537749-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 2, 2026?"
-    },
-    "b9f5503ba7f75a83": {
-      "timestamp": "2026-02-02T08:56:54.017542-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "cfcd64b9ab9a2b1d": {
-      "timestamp": "2026-02-02T07:29:32.092594-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "cfe0f5ee4402742c": {
-      "timestamp": "2026-02-02T07:29:31.663553-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8fd0627bccf00986": {
-      "timestamp": "2026-02-02T07:29:31.246587-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "b205da59883457a6": {
-      "timestamp": "2026-02-02T07:29:30.828224-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "12880d449d834caf": {
-      "timestamp": "2026-02-02T07:29:30.413478-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "7d62dcef1757bc38": {
-      "timestamp": "2026-02-02T07:29:29.992707-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "93adebac2c8afafc": {
-      "timestamp": "2026-02-02T07:29:29.566896-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "7b5d8cf7a4d6bdbb": {
-      "timestamp": "2026-02-02T07:29:29.150413-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "8cd2ae74100a5322": {
-      "timestamp": "2026-02-02T07:29:28.726535-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "b00aa138ae0e80eb": {
-      "timestamp": "2026-02-02T07:29:28.304496-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 28, 2026?"
-    },
-    "54c207cbd1d09222": {
-      "timestamp": "2026-02-02T07:29:27.861462-03:00",
-      "trader": "cashy",
-      "title": "US x Iran nuclear talks resume by March 31? "
-    },
-    "9b99338856aa3f29": {
-      "timestamp": "2026-02-02T07:29:27.443723-03:00",
-      "trader": "cashy",
-      "title": "US-Iran nuclear deal before 2027?"
-    },
-    "479fa06802037b30": {
-      "timestamp": "2026-02-01T19:55:33.074538-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "9b0f7999be424742": {
-      "timestamp": "2026-02-01T19:55:32.510367-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "c2bab3363ead253b": {
-      "timestamp": "2026-02-01T19:55:31.970918-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "61f25d1aac26b4d3": {
-      "timestamp": "2026-02-01T18:58:21.244702-03:00",
-      "trader": "cashy",
-      "title": "Hezbollah strike on Israel by March 31?"
-    },
-    "27f246947fb1f13b": {
-      "timestamp": "2026-02-01T17:54:05.766710-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "88126d38103e30ee": {
-      "timestamp": "2026-02-01T17:54:05.348251-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "941a6000625fefba": {
-      "timestamp": "2026-02-01T16:57:27.195019-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "73008e67f2ed845b": {
-      "timestamp": "2026-02-01T16:57:26.616215-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "b7f99383828fd161": {
-      "timestamp": "2026-02-01T16:45:24.859736-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "80312aecdd2f2d8c": {
-      "timestamp": "2026-02-01T16:45:23.976646-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "ce0631bb70ceaa79": {
-      "timestamp": "2026-02-01T16:45:23.366743-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "2ed4834938f67c49": {
-      "timestamp": "2026-02-01T16:45:22.742270-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "53ad0fcbbb1e48dd": {
-      "timestamp": "2026-02-01T16:45:22.127226-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "04a1bafc03ff4616": {
-      "timestamp": "2026-02-01T16:45:21.518001-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "7fc939df78f252c1": {
-      "timestamp": "2026-02-01T16:45:20.904261-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "fbc4df40768dfe9d": {
-      "timestamp": "2026-02-01T16:45:20.280331-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "a55e8080479d2285": {
-      "timestamp": "2026-02-01T16:45:19.629203-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "3a0f938bb06fe891": {
-      "timestamp": "2026-02-01T16:45:19.000472-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "245058d56cce2d6e": {
-      "timestamp": "2026-02-01T16:45:18.383864-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "d66c5c26e1bf59ef": {
-      "timestamp": "2026-02-01T16:45:17.763629-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "cafea8dff3120555": {
-      "timestamp": "2026-02-01T16:45:17.142307-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "9ee6f3344e57bafa": {
-      "timestamp": "2026-02-01T16:45:16.519789-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "f6e7cf0afd767c2c": {
-      "timestamp": "2026-02-01T16:45:15.894314-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "c1d1f4e178693202": {
-      "timestamp": "2026-02-01T16:45:15.284138-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "9bcd0d37bf0417e8": {
-      "timestamp": "2026-02-01T16:45:14.643264-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "30d17a7c22bc1380": {
-      "timestamp": "2026-02-01T16:45:14.025325-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "c38c6a98f1aedaf1": {
-      "timestamp": "2026-02-01T16:45:13.409445-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "52860bb4e00a56f2": {
-      "timestamp": "2026-02-01T16:45:12.805513-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "79b81a0f16fc5788": {
-      "timestamp": "2026-02-01T16:45:12.174142-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "b71122d26419f89a": {
-      "timestamp": "2026-02-01T16:03:43.016501-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "a4466bac9b271fc3": {
-      "timestamp": "2026-02-01T13:58:36.693085-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "e4bfca6e60604e55": {
-      "timestamp": "2026-02-01T13:58:36.267007-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "823bf77794e5d046": {
-      "timestamp": "2026-02-01T13:58:35.845207-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "67f276dedc90f405": {
-      "timestamp": "2026-02-01T13:58:35.424756-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "8d6b5a0074bb4893": {
-      "timestamp": "2026-02-01T12:49:51.177572-03:00",
-      "trader": "Midas14",
-      "title": "SpaceX and xAI merger officially announced by June"
-    },
-    "007b9017da0408a0": {
-      "timestamp": "2026-02-01T12:49:50.579056-03:00",
-      "trader": "Midas14",
-      "title": "SpaceX and xAI merger officially announced by June"
-    },
-    "daa58058e8277499": {
-      "timestamp": "2026-02-01T12:49:49.591255-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "35c16b83f15ceba9": {
-      "timestamp": "2026-02-01T12:49:49.012123-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "153c863447a54f81": {
-      "timestamp": "2026-02-01T12:49:48.457660-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "b18837022996883f": {
-      "timestamp": "2026-02-01T12:49:47.879962-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "e4ac7f6effb1061a": {
-      "timestamp": "2026-02-01T12:49:47.315924-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "33ce82947e727f58": {
-      "timestamp": "2026-02-01T12:49:46.715734-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "130e02febe27281f": {
-      "timestamp": "2026-02-01T12:49:46.107832-03:00",
-      "trader": "cashy",
-      "title": "Will Trump nominate Kevin Warsh as the next Fed ch"
-    },
-    "a94885fa42e7b537": {
-      "timestamp": "2026-02-01T10:55:00.926983-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "caa3b75eba5137fd": {
-      "timestamp": "2026-02-01T10:55:00.479355-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "2ea017bbbe503bd8": {
-      "timestamp": "2026-02-01T10:54:59.816005-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "e0b6e54e1df8125f": {
-      "timestamp": "2026-02-01T10:54:59.359563-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "054cc79118682263": {
-      "timestamp": "2026-02-01T08:40:21.768808-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on February 1, 2026?"
-    },
-    "fa7357575e6f35d4": {
-      "timestamp": "2026-02-01T07:56:21.059930-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on February 1, 2026?"
-    },
-    "f38c58d2c849e20d": {
-      "timestamp": "2026-02-01T07:56:20.514267-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on February 1, 2026?"
-    },
-    "ac7166a05c36f443": {
-      "timestamp": "2026-02-01T06:56:07.322798-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "ea604160449430ae": {
-      "timestamp": "2026-02-01T06:56:06.907283-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "5d7377e740e5dbd9": {
-      "timestamp": "2026-02-01T05:00:14.324740-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "2f23bf4c49ceccf0": {
-      "timestamp": "2026-02-01T04:27:12.811172-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "9d0f0d1627282245": {
-      "timestamp": "2026-02-01T02:17:18.819624-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "c5f38cc626fc8228": {
-      "timestamp": "2026-02-01T02:17:18.221745-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "b715c9bc0dd32cef": {
-      "timestamp": "2026-02-01T02:17:17.656586-03:00",
-      "trader": "Midas14",
-      "title": "Will GPT-6 be released by March 31, 2026?"
-    },
-    "051333a616a95ece": {
-      "timestamp": "2026-02-01T02:17:17.066348-03:00",
-      "trader": "Midas14",
-      "title": "Will GPT-6 be released by March 31, 2026?"
-    },
-    "4d056bbae18de296": {
-      "timestamp": "2026-02-01T02:17:16.490505-03:00",
-      "trader": "Midas14",
-      "title": "SpaceX and xAI merger officially announced by June"
-    },
-    "b6cebff6f6a0964a": {
-      "timestamp": "2026-02-01T02:17:15.623020-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "7083893914f9a7c3": {
-      "timestamp": "2026-02-01T02:17:15.027594-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "397728fd43d5cc59": {
-      "timestamp": "2026-02-01T02:17:14.467995-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "2f5e0b717cf9d7a8": {
-      "timestamp": "2026-02-01T02:17:13.901569-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "4c3d3ad9918a5023": {
-      "timestamp": "2026-02-01T02:17:13.330000-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "683cb3c7aa5056a7": {
-      "timestamp": "2026-02-01T02:17:12.755932-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "9eefb49af15d611c": {
-      "timestamp": "2026-02-01T02:17:12.192769-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "5700caae42df1e74": {
-      "timestamp": "2026-02-01T02:17:11.594572-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "e9b24936af3c94b2": {
-      "timestamp": "2026-02-01T02:17:11.036020-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "9fa2c06ee626af61": {
-      "timestamp": "2026-02-01T02:17:10.471941-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "894e9cc6cd985e28": {
-      "timestamp": "2026-02-01T02:17:09.877474-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "8d50e442e633c747": {
-      "timestamp": "2026-02-01T02:17:09.318970-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "0791f6edc2171ec4": {
-      "timestamp": "2026-02-01T02:17:08.723763-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "41e123ff4d438b2a": {
-      "timestamp": "2026-02-01T02:17:08.159060-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "c5dee0085899119b": {
-      "timestamp": "2026-02-01T02:17:07.550837-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "de88c27008288d37": {
-      "timestamp": "2026-02-01T02:17:06.978102-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "2722600c1f4c4b02": {
-      "timestamp": "2026-02-01T02:17:06.408637-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "e3f03ce6f30a1fea": {
-      "timestamp": "2026-02-01T02:17:05.842689-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "7ed33aa22a8f90ad": {
-      "timestamp": "2026-02-01T02:17:05.222996-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "08b2aebda2069d6d": {
-      "timestamp": "2026-02-01T02:17:04.630264-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "24fc0d5930481fdb": {
-      "timestamp": "2026-01-31T19:51:00.473023-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "afe0f3b2ec95794f": {
-      "timestamp": "2026-01-31T19:50:59.952017-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "178efe282e0588e6": {
-      "timestamp": "2026-01-31T18:43:56.125179-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "a74900d480c6facb": {
-      "timestamp": "2026-01-31T16:51:30.408227-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "5c1864889846acb3": {
-      "timestamp": "2026-01-31T16:51:29.893966-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "bd70167957a524c6": {
-      "timestamp": "2026-01-31T16:38:12.869612-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "d8127a0f7dd6d318": {
-      "timestamp": "2026-01-31T16:38:12.326231-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "14ddd21c1fb12120": {
-      "timestamp": "2026-01-31T16:38:11.769017-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "628aa54d67836136": {
-      "timestamp": "2026-01-31T16:38:11.189932-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "50dbc556a86e2ba7": {
-      "timestamp": "2026-01-31T16:38:10.656058-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "89c9779629ef2c40": {
-      "timestamp": "2026-01-31T16:38:10.107967-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "d0a744257333e0ba": {
-      "timestamp": "2026-01-31T16:38:09.537756-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "784f18e6129890d3": {
-      "timestamp": "2026-01-31T16:38:08.972618-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "ed6df62cf3369eda": {
-      "timestamp": "2026-01-31T16:38:08.426857-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "87dcec11cb246b70": {
-      "timestamp": "2026-01-31T16:38:07.887603-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "773f25e17de539f7": {
-      "timestamp": "2026-01-31T16:38:07.331301-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "321b25434737ca86": {
-      "timestamp": "2026-01-31T16:00:54.119052-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "7656e56a162d5cc2": {
-      "timestamp": "2026-01-31T16:00:53.514686-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "ab7de323c3f3aa4c": {
-      "timestamp": "2026-01-31T16:00:52.913051-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "379ba868daae315b": {
-      "timestamp": "2026-01-31T16:00:52.011461-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 4, 2026?"
-    },
-    "554790ce0d18afb2": {
-      "timestamp": "2026-01-31T16:00:51.406036-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "ef4cecca74e90b39": {
-      "timestamp": "2026-01-31T16:00:50.798327-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "4f98e277dd402ef9": {
-      "timestamp": "2026-01-31T16:00:50.180360-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "6f3d470dc011236a": {
-      "timestamp": "2026-01-31T16:00:49.574015-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "01f3e8eaab43904b": {
-      "timestamp": "2026-01-31T13:58:48.942363-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "338316924f628eaa": {
-      "timestamp": "2026-01-31T13:58:48.311817-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "6ecf4894998ffabc": {
-      "timestamp": "2026-01-31T13:58:47.452232-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "1c9068336c4e2310": {
-      "timestamp": "2026-01-31T13:58:46.835626-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "16015a1c33e451b7": {
-      "timestamp": "2026-01-31T11:52:01.802365-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "253403f97695c58b": {
-      "timestamp": "2026-01-31T11:52:01.238528-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "b22ec714cd3e96b0": {
-      "timestamp": "2026-01-31T10:53:31.650399-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 31, 2026?"
-    },
-    "fb51e5f78120285f": {
-      "timestamp": "2026-01-31T10:53:31.053636-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "ca45210f8a082f05": {
-      "timestamp": "2026-01-31T10:53:30.441029-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "227808fedf539069": {
-      "timestamp": "2026-01-31T10:53:29.820081-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "c69ea10bfc020895": {
-      "timestamp": "2026-01-31T10:53:29.225523-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "9e83f2601bb985ba": {
-      "timestamp": "2026-01-31T10:53:28.638367-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "d5806d20b3640be5": {
-      "timestamp": "2026-01-31T10:53:28.054256-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "45e8692e6dc91899": {
-      "timestamp": "2026-01-31T10:53:27.465233-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "3feeb36fa0f7b409": {
-      "timestamp": "2026-01-31T10:53:26.853405-03:00",
-      "trader": "cashy",
-      "title": "Israel strikes Iran by January 31, 2026?"
-    },
-    "8f6390974a041682": {
-      "timestamp": "2026-01-31T08:38:34.972606-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "89d85f6b0158ab54": {
-      "timestamp": "2026-01-31T08:38:34.371618-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Gaza on January 31, 2026?"
-    },
-    "7e30f6c4f8741052": {
-      "timestamp": "2026-01-31T07:53:15.562403-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "dad13e3f1ede3d04": {
-      "timestamp": "2026-01-31T06:53:33.200362-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "6877bf1aeaf1d1e9": {
-      "timestamp": "2026-01-31T06:53:32.690109-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "966ad863757cbb25": {
-      "timestamp": "2026-01-31T06:53:32.171411-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "be30d2adb82c71ec": {
-      "timestamp": "2026-01-31T06:53:31.646421-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "2f8ca8e944d74ca1": {
-      "timestamp": "2026-01-31T06:53:31.143037-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "2ff6e0ba8fd0210f": {
-      "timestamp": "2026-01-31T06:53:30.637266-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "50cdb8cce73c61f6": {
-      "timestamp": "2026-01-31T06:53:30.100262-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "41be9eec676f28d1": {
-      "timestamp": "2026-01-31T06:53:29.560529-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "1e6db17d9358aa91": {
-      "timestamp": "2026-01-31T06:53:29.049781-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "303598b1b91d409d": {
-      "timestamp": "2026-01-31T06:53:28.523452-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "12f6b58febf742d9": {
-      "timestamp": "2026-01-31T06:53:27.984841-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "c4dd2c18fd794b8b": {
-      "timestamp": "2026-01-31T06:53:27.447927-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "3d6337fb8f35457b": {
-      "timestamp": "2026-01-31T06:53:26.938834-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "276de8662a241bc6": {
-      "timestamp": "2026-01-31T06:53:26.412788-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "4d47823e32bd3dcc": {
-      "timestamp": "2026-01-31T06:53:25.876868-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "924ab70a3db05275": {
-      "timestamp": "2026-01-31T06:53:25.354214-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "22491735a53e3612": {
-      "timestamp": "2026-01-31T06:53:24.850884-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "dab6cf80d539f122": {
-      "timestamp": "2026-01-31T06:53:24.337897-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "5c72dd7c08e8c954": {
-      "timestamp": "2026-01-31T06:53:23.805460-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "a44cb7acbd1c6747": {
-      "timestamp": "2026-01-31T05:59:16.732414-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "c0d2b4f7578dab25": {
-      "timestamp": "2026-01-31T05:59:16.281082-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "13b167541fa54b6d": {
-      "timestamp": "2026-01-31T04:57:53.815371-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "bbd7f24bb03d1622": {
-      "timestamp": "2026-01-31T04:57:53.393030-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "bafb42dcbdafa9e8": {
-      "timestamp": "2026-01-31T04:42:07.004594-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 28, 2026?"
-    },
-    "5699363659672576": {
-      "timestamp": "2026-01-31T04:42:06.397911-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "a65c819f7bb0333a": {
-      "timestamp": "2026-01-31T04:42:05.786053-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "0dd5f87b7a3fabb8": {
-      "timestamp": "2026-01-31T04:42:05.173494-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "af8f2845d85ad72e": {
-      "timestamp": "2026-01-31T04:42:04.572029-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "d03eca7fc1339a9a": {
-      "timestamp": "2026-01-31T04:42:03.963552-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "30f2a3bbe7591fd8": {
-      "timestamp": "2026-01-31T04:42:03.365281-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "a8e05061b840e1f9": {
-      "timestamp": "2026-01-31T04:42:02.762173-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "a29ccb60623ca76a": {
-      "timestamp": "2026-01-31T04:42:02.145803-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "e796d9703d1c5043": {
-      "timestamp": "2026-01-31T01:48:06.434501-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "651da17aac021259": {
-      "timestamp": "2026-01-31T01:48:06.010380-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "cff9419159fc25c6": {
-      "timestamp": "2026-01-31T01:48:05.585998-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "3df20e877c95b792": {
-      "timestamp": "2026-01-31T01:48:05.161930-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "b57870377843b485": {
-      "timestamp": "2026-01-30T20:51:46.309169-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "e099b1f6a729bb75": {
-      "timestamp": "2026-01-30T20:51:45.724030-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 13, 2026?"
-    },
-    "9b007bcd22d7a378": {
-      "timestamp": "2026-01-30T20:51:45.141211-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "1a60a193ef631b4b": {
-      "timestamp": "2026-01-30T19:58:33.536000-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "3d627d0a4e05ebb7": {
-      "timestamp": "2026-01-30T19:58:33.118450-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "addf05ba44d16ee4": {
-      "timestamp": "2026-01-30T19:58:32.688565-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "82f08e0fb9e50ace": {
-      "timestamp": "2026-01-30T19:58:32.268757-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "c5efc5e5f7782da9": {
-      "timestamp": "2026-01-30T19:58:31.850513-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "bc70bc579b768f4a": {
-      "timestamp": "2026-01-30T19:58:31.421090-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "eb13adca362d0803": {
-      "timestamp": "2026-01-30T19:58:30.992680-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "ac8d2b75f26f6a54": {
-      "timestamp": "2026-01-30T19:58:30.564716-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 5, 2026?"
-    },
-    "d83982cd9d9bd046": {
-      "timestamp": "2026-01-30T19:58:30.145682-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "e61e8db571e2f580": {
-      "timestamp": "2026-01-30T18:52:52.222565-03:00",
-      "trader": "cashy",
-      "title": "Will Trump nominate Kevin Warsh as the next Fed ch"
-    },
-    "c2db8f7eeb6e193b": {
-      "timestamp": "2026-01-30T17:57:46.548034-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "a6a8fe2ba429db76": {
-      "timestamp": "2026-01-30T17:57:46.093913-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "fecc70267574695e": {
-      "timestamp": "2026-01-30T17:57:45.391081-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 2, 2026?"
-    },
-    "51ac21063e610935": {
-      "timestamp": "2026-01-30T16:45:48.969680-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "2704abd88fad17c1": {
-      "timestamp": "2026-01-30T16:45:48.350101-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "ab0475375b74652f": {
-      "timestamp": "2026-01-30T16:45:47.747679-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "52665a6b06c13e73": {
-      "timestamp": "2026-01-30T16:45:47.149969-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "4c6e3634950f5352": {
-      "timestamp": "2026-01-30T16:45:46.531842-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "911ab124ca357508": {
-      "timestamp": "2026-01-30T16:45:45.925983-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "f1d39417095a71cf": {
-      "timestamp": "2026-01-30T16:45:45.312872-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "8321cc68d81d1508": {
-      "timestamp": "2026-01-30T16:45:44.723222-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "fc6594a0ba686f2b": {
-      "timestamp": "2026-01-30T16:45:44.101154-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "fc1277eb3f7869ee": {
-      "timestamp": "2026-01-30T16:45:43.494996-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "b2af1eedf92d1259": {
-      "timestamp": "2026-01-30T16:45:42.885183-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "ed6d559c1f266f62": {
-      "timestamp": "2026-01-30T16:45:42.273924-03:00",
-      "trader": "Midas14",
-      "title": "U.S. x Iran Military Engagement by March 31, 2026?"
-    },
-    "cf117651929772e0": {
-      "timestamp": "2026-01-30T16:45:41.659589-03:00",
-      "trader": "Midas14",
-      "title": "US strikes Iran by March 31, 2026?"
-    },
-    "69d5e1379777dfff": {
-      "timestamp": "2026-01-30T16:45:40.783305-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "0d554fde31af133f": {
-      "timestamp": "2026-01-30T16:45:40.178232-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "1533bd8bade8b085": {
-      "timestamp": "2026-01-30T16:45:39.563462-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "57c197a72fe50272": {
-      "timestamp": "2026-01-30T16:45:38.953275-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "00c856d58705182c": {
-      "timestamp": "2026-01-30T16:45:38.333456-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "74c2eba9e5b61f0d": {
-      "timestamp": "2026-01-30T16:45:37.738126-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "29184f33648d4ab0": {
-      "timestamp": "2026-01-30T14:54:03.636184-03:00",
-      "trader": "Midas14",
-      "title": "Will Waymo operate in 6 cities on June 30 2026?"
-    },
-    "bb4ba92a5836322e": {
-      "timestamp": "2026-01-30T14:54:02.970914-03:00",
-      "trader": "cashy",
-      "title": "Will Trump admin release any more Epstein related "
-    },
-    "68cc8d7020bef964": {
-      "timestamp": "2026-01-30T14:54:02.539544-03:00",
-      "trader": "cashy",
-      "title": "Will Trump admin release any more Epstein related "
-    },
-    "b831d9bd7b514d5e": {
-      "timestamp": "2026-01-30T14:54:02.121509-03:00",
-      "trader": "cashy",
-      "title": "Will Trump admin release any more Epstein related "
-    },
-    "f374dc4e57fe9f16": {
-      "timestamp": "2026-01-30T14:54:01.690140-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "902243a2c77c561c": {
-      "timestamp": "2026-01-30T14:54:01.268411-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 4, 2026?"
-    },
-    "df3c2a65a647836d": {
-      "timestamp": "2026-01-30T14:54:00.842038-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 4, 2026?"
-    },
-    "f51993a5f06ecd3f": {
-      "timestamp": "2026-01-30T14:54:00.418309-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 4, 2026?"
-    },
-    "8ba02740256b04d6": {
-      "timestamp": "2026-01-30T14:54:00.001658-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "a13f6b9b9dcc05f7": {
-      "timestamp": "2026-01-30T14:53:59.579040-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "b186a630dc1dc374": {
-      "timestamp": "2026-01-30T14:53:59.139813-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "261eb7c14f29b1d9": {
-      "timestamp": "2026-01-30T14:53:58.719703-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "780b06c491b88a70": {
-      "timestamp": "2026-01-30T14:53:58.298645-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "6807336cf10d14e5": {
-      "timestamp": "2026-01-30T14:53:57.858464-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "2d22172e057ad627": {
-      "timestamp": "2026-01-30T14:53:57.443891-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "80a915d968cad64e": {
-      "timestamp": "2026-01-30T14:53:57.014269-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "be6456ab520be50f": {
-      "timestamp": "2026-01-30T14:53:56.597834-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "53a4812c9597bddd": {
-      "timestamp": "2026-01-30T14:53:56.180307-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "9571e2b270c5141d": {
-      "timestamp": "2026-01-30T14:53:55.754010-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "e214e2f4d527bcd8": {
-      "timestamp": "2026-01-30T14:53:55.309812-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "7b0ff9348b46f088": {
-      "timestamp": "2026-01-30T14:53:54.863440-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by January 31, 2026?"
-    },
-    "998e8262cb18ce16": {
-      "timestamp": "2026-01-30T12:54:35.937590-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "3a112c15a6893a96": {
-      "timestamp": "2026-01-30T11:06:10.575525-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "2f5f853ad31f0bed": {
-      "timestamp": "2026-01-30T11:06:09.956146-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "735ea8a8b85dd748": {
-      "timestamp": "2026-01-30T11:06:09.388008-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "25b5f705d2df0720": {
-      "timestamp": "2026-01-30T11:06:08.824675-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "7a931639f18f9f3e": {
-      "timestamp": "2026-01-30T11:06:08.263568-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "747178b28023de90": {
-      "timestamp": "2026-01-30T11:06:07.668409-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "18f8c9437ecc68dc": {
-      "timestamp": "2026-01-30T11:06:07.100467-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "d03172ad2c92455c": {
-      "timestamp": "2026-01-30T11:06:06.539219-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "ad7250a9c7cbe651": {
-      "timestamp": "2026-01-30T11:06:05.975279-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "638807d79d90c14a": {
-      "timestamp": "2026-01-30T11:06:05.379258-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "9e19f2d6dca8f96b": {
-      "timestamp": "2026-01-30T11:06:04.804905-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "0300af0951f7d60f": {
-      "timestamp": "2026-01-30T11:06:04.210780-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "86109a6086335e17": {
-      "timestamp": "2026-01-30T11:06:03.652581-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "a91ff39c0596afd0": {
-      "timestamp": "2026-01-30T11:06:03.062694-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "47524dff48dcc225": {
-      "timestamp": "2026-01-30T11:06:02.494427-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "a19ad2b306785a57": {
-      "timestamp": "2026-01-30T11:06:01.929091-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "c719435632a1e5ab": {
-      "timestamp": "2026-01-30T11:06:01.368180-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "c0db1713d988dc40": {
-      "timestamp": "2026-01-30T11:06:00.767975-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "554aa7ee4607a4f4": {
-      "timestamp": "2026-01-30T11:06:00.209041-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "08126a9862dee04f": {
-      "timestamp": "2026-01-30T11:05:59.651306-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "b37a6b85bd4f14a3": {
-      "timestamp": "2026-01-30T08:01:03.384461-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "8bcf715aa00ebf66": {
-      "timestamp": "2026-01-30T04:29:52.099103-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 2 countries in 2026?"
-    },
-    "f19e5b0ff430571a": {
-      "timestamp": "2026-01-30T04:29:51.491560-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 2 countries in 2026?"
-    },
-    "959dc9c797b65659": {
-      "timestamp": "2026-01-30T04:29:50.890306-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike 1 country in 2026?"
-    },
-    "9a3093b1d882cc34": {
-      "timestamp": "2026-01-30T01:56:32.344639-03:00",
-      "trader": "Midas14",
-      "title": "Will Google say \"Gemini 3\" during earnings call?"
-    },
-    "4e88ceb5cbc08adf": {
-      "timestamp": "2026-01-30T01:56:31.670666-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
-    },
-    "b8c48fc7828b7996": {
-      "timestamp": "2026-01-30T01:56:31.203416-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "9377cb3f5e286b81": {
-      "timestamp": "2026-01-30T01:56:30.759282-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "d0fb726272819d2e": {
-      "timestamp": "2026-01-30T01:56:30.314418-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "bed86f59810550a9": {
-      "timestamp": "2026-01-30T01:56:29.868221-03:00",
-      "trader": "cashy",
-      "title": "Will Israel strike Lebanon on January 30, 2026?"
-    }
-  },
-  "last_check": "2026-02-13T11:27:35.883614-03:00"
+  "notified_trades": [
+    "ccc348a7aaa3663e",
+    "961116da0df45729",
+    "9a3093b1d882cc34",
+    "30d17a7c22bc1380",
+    "68f75f161668bb54",
+    "8a4431e531f72c4f",
+    "bed86f59810550a9",
+    "1db03464e2a870fc",
+    "4c86c0a860c74ac9",
+    "e3f03ce6f30a1fea",
+    "76c0f4934031bedf",
+    "7aeb23aed4e8f7e7",
+    "dda621f70a9af8ba",
+    "479fa06802037b30",
+    "b205da59883457a6",
+    "d0a744257333e0ba",
+    "38e4591d0663300f",
+    "bf198a4a31481e63",
+    "0b22cb6d1e2a4c38",
+    "8ef9c31ad6140526",
+    "2d22172e057ad627",
+    "c5dee0085899119b",
+    "ec07e282df398261",
+    "9c86c069036e92c0",
+    "72c873d2f3c9b4e9",
+    "54c510c769de63f5",
+    "67f276dedc90f405",
+    "e9bf28234ac6ef9f",
+    "494d15ad84d38eb0",
+    "9cd9b1497376a17e",
+    "fbc4df40768dfe9d",
+    "628aa54d67836136",
+    "01f3e8eaab43904b",
+    "bbd7f24bb03d1622",
+    "8321cc68d81d1508",
+    "f87809ceda9e60e1",
+    "5699363659672576",
+    "0f4d07135dcb6c5e",
+    "53a4812c9597bddd",
+    "6ffb5e7e19cb2420",
+    "2135d4de2e933d30",
+    "532376ba233adcc3",
+    "afe0f3b2ec95794f",
+    "828f97c91efd1235",
+    "e214e2f4d527bcd8",
+    "4c6e3634950f5352",
+    "22cdf4b7a38d2c75",
+    "22491735a53e3612",
+    "418cd4fd24c0547d",
+    "89c9779629ef2c40",
+    "11cefee5f2f43382",
+    "41e123ff4d438b2a",
+    "6920dff1d116e60d",
+    "2959400bc0a6d5cf",
+    "c38c6a98f1aedaf1",
+    "c31a6c6d38230999",
+    "e2906a6354ab6610",
+    "7e2fa12b670180b3",
+    "2097f19c3d7f50fd",
+    "fd0fbbcea9fdd393",
+    "95c3aa7f4efcaac1",
+    "53ad0fcbbb1e48dd",
+    "ef4cecca74e90b39",
+    "b22ec714cd3e96b0",
+    "faa015e6fe18c4c9",
+    "f6e7cf0afd767c2c",
+    "35c16b83f15ceba9",
+    "bfc576062c5268ba",
+    "df3c2a65a647836d",
+    "86109a6086335e17",
+    "1e7b7d774b47277b",
+    "12880d449d834caf",
+    "9b007bcd22d7a378",
+    "8cd2ae74100a5322",
+    "b18837022996883f",
+    "0791f6edc2171ec4",
+    "253403f97695c58b",
+    "0896c9593ddb4f16",
+    "42d5fe64c38a9514",
+    "04a1bafc03ff4616",
+    "f374dc4e57fe9f16",
+    "cfcd64b9ab9a2b1d",
+    "6f10c4538f520bcb",
+    "e85392343b79ee9e",
+    "04aae5510fda3ba6",
+    "ca45210f8a082f05",
+    "e099b1f6a729bb75",
+    "c69ea10bfc020895",
+    "4bcc4bde8b6c66f9",
+    "de6a76ce91ecae23",
+    "19c9a97fb60c9496",
+    "03ecd6d04f1e9c1e",
+    "7b87e00be8748fa0",
+    "7a5efe5847ce02c4",
+    "d224a80694f0caf1",
+    "b37a6b85bd4f14a3",
+    "381c257cba60c3e1",
+    "5887394e36c59078",
+    "c85fab8596a932a6",
+    "817c52d414b49bd8",
+    "2ff6e0ba8fd0210f",
+    "477da3399a1859de",
+    "76aded4184c8a7ab",
+    "f8896b128ed39293",
+    "a1e11d111fbc24a9",
+    "82640b8a0ad22e61",
+    "ca494986469898a0",
+    "9eefb49af15d611c",
+    "ad7250a9c7cbe651",
+    "86f92b6de1dfd7a8",
+    "a2bac6ba19c26592",
+    "eb6f2316494726e3",
+    "33adf9ce314cf7f0",
+    "9588a8a766017e1e",
+    "11d8d8ce59f38ce1",
+    "9fa2c06ee626af61",
+    "b14b82abfd0b048f",
+    "f28b167e63d274bb",
+    "61f25d1aac26b4d3",
+    "45e8692e6dc91899",
+    "41be9eec676f28d1",
+    "13b167541fa54b6d",
+    "d03172ad2c92455c",
+    "6fe7a99d8b53e13e",
+    "2f3bdca8a3e251ed",
+    "f51993a5f06ecd3f",
+    "85f7c9ca48702b48",
+    "b7f99383828fd161",
+    "a94885fa42e7b537",
+    "93d58051342fe705",
+    "5c1864889846acb3",
+    "ef5bce0d31019e49",
+    "cb7fcd0e13f08548",
+    "998e8262cb18ce16",
+    "6912093facf537f5",
+    "69d5e1379777dfff",
+    "8706fc941b75f901",
+    "b8c48fc7828b7996",
+    "b715c9bc0dd32cef",
+    "6e21ef61996dd535",
+    "6ee366e98c9c5f0e",
+    "d66c18442c0e2ccc",
+    "3a7e36bbdfe2453a",
+    "651da17aac021259",
+    "cbcb6ff729e779df",
+    "b186a630dc1dc374",
+    "966ad863757cbb25",
+    "e9b24936af3c94b2",
+    "153c863447a54f81",
+    "ab7de323c3f3aa4c",
+    "d5806d20b3640be5",
+    "005515ea66868b9a",
+    "90f05a09aaffbbcd",
+    "715f1eb16095180b",
+    "6ea4113ae76e81a7",
+    "708475d52215fa65",
+    "ac8d2b75f26f6a54",
+    "405e7c0e951a7d32",
+    "c2db8f7eeb6e193b",
+    "118749cc207811a9",
+    "9571e2b270c5141d",
+    "a4466bac9b271fc3",
+    "3432fbda2f52b1e9",
+    "5d7377e740e5dbd9",
+    "7a931639f18f9f3e",
+    "5638aad73404b61e",
+    "2ea017bbbe503bd8",
+    "fb51e5f78120285f",
+    "924ab70a3db05275",
+    "02bc576af1ac24c8",
+    "cb71bb9fe8c735f2",
+    "b963b35c527724d4",
+    "d060577389bb4261",
+    "29184f33648d4ab0",
+    "0503a60111e26121",
+    "20329669e40bb045",
+    "9d0f0d1627282245",
+    "2722600c1f4c4b02",
+    "139f51cc40f8becd",
+    "bd70167957a524c6",
+    "e1693011ca0e1557",
+    "c3c1bb367d103119",
+    "7d62dcef1757bc38",
+    "2f23bf4c49ceccf0",
+    "c0d2b4f7578dab25",
+    "1a60a193ef631b4b",
+    "6807336cf10d14e5",
+    "90a8ff0348ba8004",
+    "e7ee76903742dde1",
+    "8d50e442e633c747",
+    "6829ef4fdbdafe82",
+    "d0ec560ee15e39a4",
+    "5de329f375e975e0",
+    "397728fd43d5cc59",
+    "d1ce54ed5b36485a",
+    "21e00ab10513d9eb",
+    "9b9121c5d7134d97",
+    "8a5613167d341eab",
+    "1c9068336c4e2310",
+    "8ef639415266aa03",
+    "ea4c92c5379a96e7",
+    "4c1e9132a7a8e08b",
+    "2240d08f6eec4bd9",
+    "884edf9ed7c45f9a",
+    "8ba02740256b04d6",
+    "7c82005a3307ec79",
+    "36fe41af8f84bd56",
+    "af8f2845d85ad72e",
+    "a8e05061b840e1f9",
+    "9e19f2d6dca8f96b",
+    "9e10528aba42841e",
+    "88200b95b44d41b0",
+    "56b63595e2bd2c3c",
+    "16015a1c33e451b7",
+    "054cc79118682263",
+    "784f18e6129890d3",
+    "a6a8fe2ba429db76",
+    "9bcd0d37bf0417e8",
+    "74c2eba9e5b61f0d",
+    "b831d9bd7b514d5e",
+    "2f5f853ad31f0bed",
+    "f38c58d2c849e20d",
+    "128dada15b555dce",
+    "567da49bd18bb046",
+    "7b0ff9348b46f088",
+    "50dbc556a86e2ba7",
+    "3f1bf1e87f74e391",
+    "e4bfca6e60604e55",
+    "00c856d58705182c",
+    "7c05c65e7c2b10c8",
+    "7b5d8cf7a4d6bdbb",
+    "82f08e0fb9e50ace",
+    "fff93300a2a52f9f",
+    "1baf3bac165bcae0",
+    "c5efc5e5f7782da9",
+    "8573c672be150f31",
+    "8bcf715aa00ebf66",
+    "eaae8c931fc509f9",
+    "74aaa9e5cf7d859e",
+    "d66c5c26e1bf59ef",
+    "87dcec11cb246b70",
+    "773f25e17de539f7",
+    "b00aa138ae0e80eb",
+    "0300af0951f7d60f",
+    "0525a0fd549d00a0",
+    "ab0475375b74652f",
+    "8d6b5a0074bb4893",
+    "cf117651929772e0",
+    "227808fedf539069",
+    "fecc70267574695e",
+    "83a0f248e09d0ddf",
+    "daa58058e8277499",
+    "e0b6e54e1df8125f",
+    "762a39e1271a15e1",
+    "0c596d6827fb414c",
+    "a675fbe4e605b202",
+    "130e02febe27281f",
+    "3f34906cb6f01fc6",
+    "823bf77794e5d046",
+    "3df20e877c95b792",
+    "2184f4e53cb4e1cb",
+    "bf383814a94f39f2",
+    "7e060e3c77c7cac1",
+    "d34220c08c654c00",
+    "554790ce0d18afb2",
+    "4421e8eba8383d96",
+    "747a9d0b943cb967",
+    "ea604160449430ae",
+    "bb139deedf33af5f",
+    "93adebac2c8afafc",
+    "c6a17a149be42103",
+    "ce0631bb70ceaa79",
+    "7df4a96f9dae9ae6",
+    "6b709611d751a0b9",
+    "4d056bbae18de296",
+    "68cc8d7020bef964",
+    "ed6d559c1f266f62",
+    "c1b547f6b9ea197c",
+    "cafea8dff3120555",
+    "e795cd3b6532b62d",
+    "addf05ba44d16ee4",
+    "82d7b1e253065e8d",
+    "dc34e89ccafd12a2",
+    "faba2122e508cc7e",
+    "89d85f6b0158ab54",
+    "27f246947fb1f13b",
+    "b6cebff6f6a0964a",
+    "b86c26560e7ef0cc",
+    "028bd9b615053404",
+    "be30d2adb82c71ec",
+    "c5f38cc626fc8228",
+    "8460cda4d314be97",
+    "1e6db17d9358aa91",
+    "0c5fd5c5cafc712a",
+    "47524dff48dcc225",
+    "d8f5fa2480f6cb3a",
+    "4a510f3f6029219d",
+    "4e8306839118f517",
+    "e595860f3be7f83d",
+    "ed6df62cf3369eda",
+    "e61e8db571e2f580",
+    "df887eebc00d8c23",
+    "24fc0d5930481fdb",
+    "0d554fde31af133f",
+    "63d6ed6216174a92",
+    "51ac21063e610935",
+    "5051443ba93eae19",
+    "638807d79d90c14a",
+    "5f30c7035014c5e6",
+    "88126d38103e30ee",
+    "bb4ba92a5836322e",
+    "5b591bd550bab93e",
+    "73a863c89bbef416",
+    "eb9a6d900acd247f",
+    "db6eafebc6232220",
+    "b0e69ba408179058",
+    "4aea2df5318a5193",
+    "1952a27477a89c20",
+    "86963c2aa258777e",
+    "0a8133e6b3a7398b",
+    "261eb7c14f29b1d9",
+    "dcd129e5a9047b4f",
+    "50cdb8cce73c61f6",
+    "80a915d968cad64e",
+    "27025c008642f303",
+    "321b25434737ca86",
+    "7e30f6c4f8741052",
+    "959dc9c797b65659",
+    "4d9c31a802e5b2ed",
+    "3a0f938bb06fe891",
+    "c4dd2c18fd794b8b",
+    "c3cbb8a6e6db2df3",
+    "bac1fa548e572c2c",
+    "11bdb4fa973a6d15",
+    "9e83f2601bb985ba",
+    "0b60b274a070202c",
+    "868ca6200ab2b9fe",
+    "d83982cd9d9bd046",
+    "36c399fa8fac0e12",
+    "221549293c85f3de",
+    "245058d56cce2d6e",
+    "554aa7ee4607a4f4",
+    "44e0c030045e77a2",
+    "def8dfa8096c3d7b",
+    "894e9cc6cd985e28",
+    "a165f6d538ce4017",
+    "c0db1713d988dc40",
+    "6ecf4894998ffabc",
+    "c35d8b4307dc60cb",
+    "941a6000625fefba",
+    "a29ccb60623ca76a",
+    "2f5e0b717cf9d7a8",
+    "e501f621645cddcd",
+    "a19ad2b306785a57",
+    "39f7e63cd1572f85",
+    "e42d61b7a9c2e771",
+    "0182156f2f5bee2d",
+    "7ecf0f07cea3a06b",
+    "7ed33aa22a8f90ad",
+    "2ed4834938f67c49",
+    "41f5607f4383f9c5",
+    "426d5c727d47c4a6",
+    "ca003a63ceba7202",
+    "6891d6e03fb2943b",
+    "b2af1eedf92d1259",
+    "1ba96ca182f4aabf",
+    "c19499e7cd5b8c7c",
+    "236219988399b7b5",
+    "880c8c23ab8878a7",
+    "2704abd88fad17c1",
+    "05fe248e7e8efe0a",
+    "f1d39417095a71cf",
+    "f91d7861131d4ead",
+    "8c119ee1b8f8ef9c",
+    "338316924f628eaa",
+    "73d4d5423729cc97",
+    "276de8662a241bc6",
+    "e778504a31627caf",
+    "510673bc16c5c22a",
+    "8511565d04246b82",
+    "3662f1ac58969ff3",
+    "21ba0db21b44e5e5",
+    "f5552a2cebde2f8f",
+    "b51e94eed2d75003",
+    "9377cb3f5e286b81",
+    "785e52c81cd273a8",
+    "31da6e22da9181c9",
+    "866bd75ba57c4b9b",
+    "051333a616a95ece",
+    "f5a0829abc7b0ffb",
+    "b8654839478d20fb",
+    "0824f8b275cb43a8",
+    "73008e67f2ed845b",
+    "a55e8080479d2285",
+    "324a7fd83f33b7f4",
+    "52860bb4e00a56f2",
+    "30f2a3bbe7591fd8",
+    "8db5c2d92574ee24",
+    "a13f6b9b9dcc05f7",
+    "18f8c9437ecc68dc",
+    "63442627b900d6c8",
+    "fc6594a0ba686f2b",
+    "25cdfd10741a6b8f",
+    "408b71d417803768",
+    "585dd3372a9e1588",
+    "8e18568baae2c93b",
+    "402ba3157891afdd",
+    "6696ffe44d413c1c",
+    "9b0f7999be424742",
+    "b71122d26419f89a",
+    "5700caae42df1e74",
+    "178efe282e0588e6",
+    "c1edc4c3d4716bfa",
+    "3ac3c2e55a5a2977",
+    "80312aecdd2f2d8c",
+    "b0d8556e843bb04e",
+    "38151c4a4f65f0c5",
+    "c1d1f4e178693202",
+    "caa3b75eba5137fd",
+    "dad13e3f1ede3d04",
+    "3d627d0a4e05ebb7",
+    "d0fb726272819d2e",
+    "985f093bf1e84629",
+    "cfa48773c0ca965a",
+    "9752b7a28bbf5e0d",
+    "7fc939df78f252c1",
+    "b6521dd4bd92eec9",
+    "57c197a72fe50272",
+    "4c3d3ad9918a5023",
+    "cfe0f5ee4402742c",
+    "64b4d80180512305",
+    "38df29f006dbb4aa",
+    "41b8e94ed9b76680",
+    "52665a6b06c13e73",
+    "a91ff39c0596afd0",
+    "4f98e277dd402ef9",
+    "911ab124ca357508",
+    "08f9922c80a2c90e",
+    "bafb42dcbdafa9e8",
+    "1e20f95290fac9c9",
+    "b947de5f4bdbe5fd",
+    "e8f4137c1c730f4b",
+    "6091d9e3c2a3b1dc",
+    "747178b28023de90",
+    "eb13adca362d0803",
+    "14ddd21c1fb12120",
+    "15fb501d2aadec53",
+    "5f0d1f4034549117",
+    "de88c27008288d37",
+    "e4ac7f6effb1061a",
+    "79b81a0f16fc5788",
+    "8fd0627bccf00986",
+    "fc1277eb3f7869ee",
+    "6f3d470dc011236a",
+    "1533bd8bade8b085",
+    "a44cb7acbd1c6747",
+    "6877bf1aeaf1d1e9",
+    "735ea8a8b85dd748",
+    "b9f5503ba7f75a83",
+    "c8d65ced4f343cf7",
+    "902243a2c77c561c",
+    "656733e13f8bf0be",
+    "e0188eb605ad70c5",
+    "1b66972c037dda33",
+    "878911e0728d0bea",
+    "6c48a770cccb2767",
+    "880bf18494b55d0b",
+    "fa7357575e6f35d4",
+    "be6456ab520be50f",
+    "43cf428d20f2a5b5",
+    "007b9017da0408a0",
+    "1cb46dd51d9cad30",
+    "7083893914f9a7c3",
+    "683cb3c7aa5056a7",
+    "e796d9703d1c5043",
+    "ac7166a05c36f443",
+    "780b06c491b88a70",
+    "f2f386dfb8e3a22e",
+    "2fdf0557f0ded9d4",
+    "7656e56a162d5cc2",
+    "ad0aac0391d473f1",
+    "4e88ceb5cbc08adf",
+    "b56f92cf8390609a",
+    "8f6390974a041682",
+    "4d47823e32bd3dcc",
+    "12f6b58febf742d9",
+    "b61367d2151ac48e",
+    "5c72dd7c08e8c954",
+    "d03eca7fc1339a9a",
+    "8d28ce8e379a6596",
+    "355105357aac360f",
+    "c2bab3363ead253b",
+    "54c207cbd1d09222",
+    "172fa4d1d4c0b4d6",
+    "c7d83e74d60a5906",
+    "3d6337fb8f35457b",
+    "b5d7e521f2cbccc2",
+    "303598b1b91d409d",
+    "7ee03119f2797872",
+    "a6474626c4f86caf"
+  ],
+  "last_check": "2026-02-13T11:38:14.105277-03:00"
 }
