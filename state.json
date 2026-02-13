@@ -1,5 +1,10 @@
 {
   "notified_trades": {
+    "a8b6d3d0ad48d403": {
+      "timestamp": "2026-02-13T11:27:35.883282-03:00",
+      "trader": "Midas14",
+      "title": "Will Meta (META) close above $640 end of February?"
+    },
     "bac1fa548e572c2c": {
       "timestamp": "2026-02-13T08:48:48.813929-03:00",
       "trader": "cashy",
@@ -2494,12 +2499,7 @@
       "timestamp": "2026-01-30T01:56:29.868221-03:00",
       "trader": "cashy",
       "title": "Will Israel strike Lebanon on January 30, 2026?"
-    },
-    "2847c257db880032": {
-      "timestamp": "2026-01-29T20:51:47.853035-03:00",
-      "trader": "cashy",
-      "title": "US strikes Iran by February 6, 2026?"
     }
   },
-  "last_check": "2026-02-13T08:48:49.098556-03:00"
+  "last_check": "2026-02-13T11:27:35.883614-03:00"
 }
