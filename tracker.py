@@ -197,7 +197,11 @@ def format_trade_message(trade, trader_name, wallet_address):
     else:
         position_str = "N/A"
 
-    message = f"""@{trader_name}
+    # Hiperlink para o perfil do trader no Polymarket
+    profile_url = f"https://polymarket.com/profile/{wallet_address}"
+    trader_line = f'<a href="{profile_url}">{trader_name}</a>'
+
+    message = f"""{trader_line}
 {title_line}
 {side_emoji} | {outcome_emoji} {outcome.upper()} | ${price:.2f}
 Volume: ${size_usd:.2f} | Position: {position_str}
