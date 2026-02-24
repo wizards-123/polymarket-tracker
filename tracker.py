@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Polymarket Copy Trading Bot v6
+Polymarket Copy Trading Bot v7
 Monitora múltiplas wallets e envia notificações no Telegram
+- Formato: @Conta / Mercado (hiperlink) / Operação / Volume / Position / Data
+- Position buscada em tempo real via API de positions
 """
 
 import os
@@ -13,9 +15,6 @@ from datetime import datetime, timezone, timedelta
 # Configurações do Telegram
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-
-# Seu bankroll
-YOUR_BANKROLL = float(os.environ.get("YOUR_BANKROLL", "50"))
 
 # Timezone BRT (UTC-3)
 BRT = timezone(timedelta(hours=-3))
@@ -64,27 +63,26 @@ def format_brt_datetime(dt=None):
     return dt.strftime("%d/%m/%Y - %H:%M")
 
 
-def timestamp_to_brt(timestamp_str):
-    """Converte timestamp ISO da API para datetime BRT"""
-    if not timestamp_str:
+def timestamp_to_brt(timestamp_val):
+    """Converte timestamp da API para datetime BRT"""
+    if not timestamp_val:
         return None
     try:
-        # Tentar formato ISO com timezone
-        dt = datetime.fromisoformat(timestamp_str.replace("Z", "+00:00"))
+        ts = float(timestamp_val)
+        dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+        return dt.astimezone(BRT)
+    except (ValueError, TypeError, OSError):
+        pass
+    try:
+        ts_str = str(timestamp_val)
+        dt = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
         return dt.astimezone(BRT)
     except:
         pass
     try:
-        # Tentar formato ISO sem timezone (assume UTC)
-        dt = datetime.fromisoformat(timestamp_str)
+        dt = datetime.fromisoformat(str(timestamp_val))
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(BRT)
-    except:
-        pass
-    try:
-        # Tentar timestamp Unix em segundos
-        dt = datetime.fromtimestamp(float(timestamp_str), tz=timezone.utc)
         return dt.astimezone(BRT)
     except:
         return None
@@ -122,6 +120,33 @@ def get_recent_trades(wallet_address):
         return []
 
 
+def get_position(wallet_address, condition_id):
+    """Busca a posição atual de uma wallet num mercado específico"""
+    url = f"{POLYMARKET_DATA_API}/positions"
+    params = {
+        "user": wallet_address,
+        "market": condition_id,
+        "sizeThreshold": 0
+    }
+
+    try:
+        response = requests.get(url, params=params, timeout=15)
+        response.raise_for_status()
+        positions = response.json()
+
+        # Somar currentValue de todas as posições neste mercado
+        total_value = 0
+        for pos in positions:
+            cv = pos.get("currentValue", 0)
+            if cv:
+                total_value += float(cv)
+
+        return total_value
+    except Exception as e:
+        print(f"  Erro ao buscar position: {e}")
+        return None
+
+
 def generate_trade_hash(trade, wallet_address):
     """Gera hash único para identificar uma trade"""
     fields = [
@@ -138,28 +163,44 @@ def generate_trade_hash(trade, wallet_address):
     return hashlib.sha256(combined.encode()).hexdigest()[:16]
 
 
-def format_trade_message(trade, trader_name, trader_bankroll):
-    """Formata a mensagem de notificação no novo formato"""
+def format_trade_message(trade, trader_name, wallet_address):
+    """Formata a mensagem de notificação"""
     side = trade.get("side", "UNKNOWN")
     outcome = trade.get("outcome", "?")
     title = trade.get("title", "Unknown Market")
     price = trade.get("price", 0)
     size_usd = trade.get("usdcSize", 0)
+    condition_id = trade.get("conditionId", "")
 
-    # Emoji do círculo: verde para BUY, vermelho para SELL
-    if side == "BUY":
-        side_line = f'🟢 BUY "{outcome}" @${price:.2f}'
+    # Emojis
+    side_emoji = "➕ BUY" if side == "BUY" else "➖ SELL"
+    outcome_emoji = "🟢" if outcome.upper() in ("YES", "Y") else "🔴"
+
+    # Hiperlink para o mercado (HTML parse mode)
+    slug = trade.get("slug", "")
+    event_slug = trade.get("eventSlug", "")
+    if slug and event_slug:
+        market_url = f"https://polymarket.com/event/{event_slug}/{slug}"
+        title_line = f'<a href="{market_url}">{title}</a>'
     else:
-        side_line = f'🔴 SELL "{outcome}" @${price:.2f}'
+        title_line = title
 
     # Horário da trade em BRT
     trade_timestamp = trade.get("timestamp")
     trade_dt_brt = timestamp_to_brt(trade_timestamp)
     trade_time_str = format_brt_datetime(trade_dt_brt) if trade_dt_brt else "Horário indisponível"
 
-    message = f"""@{trader_name} - {title}
-{side_line}
-Volume: ${size_usd:.2f}
+    # Buscar posição atual
+    position_value = get_position(wallet_address, condition_id)
+    if position_value is not None:
+        position_str = f"${position_value:,.2f}"
+    else:
+        position_str = "N/A"
+
+    message = f"""@{trader_name}
+{title_line}
+{side_emoji} | {outcome_emoji} {outcome.upper()} | ${price:.2f}
+Volume: ${size_usd:.2f} | Position: {position_str}
 {trade_time_str}"""
 
     return message
@@ -171,6 +212,7 @@ def send_telegram_message(message):
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": message,
+        "parse_mode": "HTML",
         "disable_web_page_preview": True
     }
 
@@ -181,6 +223,10 @@ def send_telegram_message(message):
         return True
     except Exception as e:
         print(f"  ✗ Erro ao enviar: {e}")
+        try:
+            print(f"  Resposta: {response.text}")
+        except:
+            pass
         return False
 
 
@@ -189,7 +235,7 @@ def main():
     now_brt = format_brt_datetime()
 
     print(f"{'='*50}")
-    print(f"Polymarket Tracker v6")
+    print(f"Polymarket Tracker v7")
     print(f"Execução: {now_brt} (BRT)")
     print(f"{'='*50}")
     print(f"Monitorando {len(wallets)} wallets:")
@@ -208,7 +254,6 @@ def main():
     for wallet in wallets:
         address = wallet["address"]
         name = wallet["name"]
-        bankroll = wallet.get("bankroll", 1000)
 
         print(f"\n--- @{name} ---")
         trades = get_recent_trades(address)
@@ -227,7 +272,7 @@ def main():
 
             print(f"  Nova trade: {trade.get('title', '?')} | {trade.get('side', '?')} {trade.get('outcome', '?')}")
 
-            message = format_trade_message(trade, name, bankroll)
+            message = format_trade_message(trade, name, address)
             if send_telegram_message(message):
                 notified.add(trade_hash)
                 new_trades_found += 1
